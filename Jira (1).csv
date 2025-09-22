@@ -1,0 +1,1043 @@
+﻿Summary,Issue key,Issue id,Issue Type,Status,Project key,Project name,Project type,Project lead,Project lead id,Project description,Priority,Resolution,Assignee,Assignee Id,Reporter,Reporter Id,Creator,Creator Id,Created,Updated,Last Viewed,Resolved,Fix versions,Fix versions,Fix versions,Fix versions,Components,Due date,Votes,Labels,Labels,Description,Environment,Watchers,Watchers,Watchers,Watchers,Watchers Id,Watchers Id,Watchers Id,Watchers Id,Original estimate,Remaining Estimate,Time Spent,Work Ratio,Σ Original Estimate,Σ Remaining Estimate,Σ Time Spent,Security Level,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Attachment,Custom field (Account),Custom field (Actual Cost Saving),Custom field (Actual Release Date),Custom field (Actual end),Custom field (Actual start),Custom field (Affected hardware),Custom field (Affected services),Custom field (Amount),Custom field (Approvals),Custom field (Backout plan),Custom field (Budget Posts),Custom field (Candidate details),Custom field (Category),Custom field (Change reason),Custom field (Change risk),Custom field (Change type),Custom field (Contract End Date),Custom field (Contract Start date),Custom field (CreativeSentDate),Custom field (Criticality),Custom field (CriticalityV2),Custom field (DDL/DML Statement),Custom field (Database Query Executor),Custom field (Database Request Fulfillment Time),Custom field (Database Type),Custom field (Dealer Id),Custom field (Dealership Type),Custom field (Development),Custom field (Due Day),Custom field (Effort),Custom field (Employee location),Custom field (Employment type),Custom field (End date),Custom field (Environment),Custom field (Epic Color),Custom field (Epic Name),Custom field (Epic Status),Custom field (Expected Cost Saving),Custom field (Expected Fix Date),Custom field (Expected Release Date),Custom field (External issue ID),Custom field (External issue ID),Custom field (Feature Impact),Custom field (Focus Areas),Custom field (Goals),Custom field (Hiring department),Custom field (Hiring manager),Custom field (Impact),Custom field (Implementation plan),Custom field (Investigation reason),Custom field (IsAutomated),Custom field (Issue Description),Custom field (Issue Progress Timestamp),Custom field (Issue color),Custom field (IssueKey),Custom field (Job Name),Custom field (Job role),Custom field (Job title),Custom field (KMS Action),Custom field (KMS Key Name),Custom field (Last working day),Custom field (Link),Custom field (Locked forms),Custom field (Major incident),Custom field (Non-Link Blockers),Custom field (Non-Link Blockers (migrated 2)),Custom field (Non-Link Blockers (migrated 3)),Custom field (Non-Link Blockers (migrated)),Custom field (Open forms),Custom field (Operational categorization),Custom field (OriginalId),Custom field (OriginalId (migrated 2)),Custom field (OriginalId (migrated 3)),Custom field (OriginalId (migrated 4)),Custom field (OriginalId (migrated)),Custom field (Owner Team),Custom field (POC),Custom field (Pending reason),Custom field (Planned end),Custom field (Planned start),Custom field (Product categorization),Custom field (Project overview key),Custom field (Project overview status),Custom field (Quality check),Custom field (Query Purpose),Custom field (RM/AM),Custom field (Rank),Custom field (Reference Job),Custom field (Repository),Custom field (Request Type),Custom field (Request language),Custom field (Request participants),Custom field (Resignation date),Custom field (Responders),Custom field (Responsible Team),Custom field (Revision by Dealer),Custom field (Revision by Delivery),Custom field (Root cause),Custom field (S3 Action),Custom field (S3 Bucket Name),Custom field (S3 File Path),Satisfaction rating,Custom field (Satisfaction date),Custom field (Sentiment),Custom field (Severity),Custom field (Source),Sprint,Sprint,Sprint,Sprint,Custom field (Start date),Custom field (Story Points),Custom field (Story point estimate),Custom field (Submitted forms),Custom field (Target Town),Custom field (Target end),Custom field (Target start),Custom field (Team),Custom field (Team),Custom field (Test Data),Custom field (Test Description),Custom field (Test Steps),Custom field (Test plan),Custom field (Time to close after resolution),Custom field (Time to first response),Custom field (Time to resolution),Custom field (Time to resolution),Custom field (Time to review normal change),Custom field (Time to review normal change),Custom field (Total Time Spent (Hours)),Custom field (Total forms),Custom field (Urgency),Custom field (Vendor),Custom field (Vulnerability),Custom field (Work category),Custom field (Workaround),Custom field ([CHART] Date of First Response),Custom field ([CHART] Time in Status),Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Comment,Parent,Parent key,Parent summary,Status Category,Status Category Changed
+Oxygen[Core] - Video Thumbnail zoom image when yt image.,FE-20964,728063,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,16/Jun/25 4:56 PM,17/Jun/25 5:46 PM,,17/Jun/25 5:46 PM,,,,,,,0,misc:added_after_sprint_start,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@7a232537,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,17/Jun/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0p6dr:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 146,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_89256897_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_83464_*|*_10000_*:*_1_*:*_27270,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,17/Jun/25 5:46 PM
+Oxygen[Core]: Scrollspy Active index & Scroll Spy Pane algo change,FE-20888,723849,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,04/Jun/25 11:49 AM,06/Jun/25 3:59 PM,,06/Jun/25 3:59 PM,,,,,,,0,misc:added_after_sprint_start,,"Requested by [~accountid:5d6ea0f695fbcc0c341d8c70] .
+
+Added the functionality to look of ScrollSpy.Pane which are wrapped with another components.
+
+There is {{MAX_RECURSION_DEPTH}} of 5. ie the Algo will check only till depth 5 for the Pane if not found.
+
+In the condition of SS inside SS is also handled.",,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@45ef6989,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,06/Jun/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0oqrr:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 145,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_186273667_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_1456119_*|*_10000_*:*_1_*:*_19194_*|*_10032_*:*_1_*:*_52915,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,06/Jun/25 3:59 PM
+CW - Image Swiper Popup not visible on review page on IOS,FE-20878,722189,Bug,Unstarted,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,30/May/25 12:52 PM,06/Jun/25 10:04 PM,,,,,,,,,0,misc:added_after_sprint_start,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@7ff38122,,,,,,,,,,,,C2,,,,,,,,,🟢 Lowest,,,,,,,,0.0,03/Jun/25 5:30 AM,,,,,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ok7b:,,CarwaleWeb,,,,,,,0.0,0.0,,,,,,,,,,Sprint 145,Tech Backlog,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,245275,FE-16,Product,To Do,03/Jun/25 4:06 PM
+ES - Youtube Mute Button analysis,FE-20836,720327,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Ayush Aryan,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,Ayush Aryan,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,26/May/25 12:46 PM,09/Jun/25 11:13 AM,,03/Jun/25 10:23 AM,,,,,,,0,,,"Analysis: 
+Due the YTs updated UI, 
+we’ll need to conditionally add mute button.
+For this we’ll require the modification if Yt script in  cwopr
+Estimated time 2 days.",,Ayush Aryan,,,,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@618b36fa,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,31/May/25 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ocyr:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 145,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_2208571_*|*_10042_*:*_1_*:*_78182844_*|*_10041_*:*_1_*:*_258435400_*|*_10000_*:*_1_*:*_343774840_*|*_10001_*:*_1_*:*_0,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,03/Jun/25 10:23 AM
+Oxygen[native] - dark theme component part 1,FE-20820,720173,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Ayush Aryan,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,Ayush Aryan,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,26/May/25 11:30 AM,30/May/25 12:26 PM,,29/May/25 5:15 PM,,,,,,,0,,,"
+CW M pr: [https://github.com/carwale/CarwaleMobile/pull/3166|https://github.com/carwale/CarwaleMobile/pull/3166]",,Aditya Sawant,Ayush Aryan,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@7d282569,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,29/May/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ocgj:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 145,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,2025-05-30 06:56:57.861,3_*:*_1_*:*_93682942_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_338854_*|*_10000_*:*_1_*:*_185656332,"30/May/25 12:26 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;#file:useTheme.js #file:ThemeProvider.js 
+
+Goal: Consume useTheme Context instead of plain theme object.
+
+Things to Do:
+
+If the component is a Class based component, add a functional HOC to use the useTheme hook.
+Name of HOC should be {{WithTheme<Component Name>}}
+Update the class component to consume styles from getStyles(theme) and use this.props.theme everywhere theme is needed.
+Add display name of HOC component as Original Component.
+
+Change import from:
+import theme from '@oxygen/native-theme';
+to:
+import useTheme from '../hooks/useTheme';
+Confirm the relative path of useTheme Hook.
+
+In the component function get Theme from imported useTheme Hook as follows:
+const { theme } = useTheme();
+
+Update styles object.
+Instead of being a static object make it into a function which takes theme as parameter.
+const getStyles = theme => StyleSheet.create({
+
+Consume the style object in the component function:
+const styles = getStyles(theme);
+
+Update other style functions:
+If any function uses style and/or theme, udpate the input paramemters and add style and/or theme. Make sure to add them before any other parameter. Update the consumption of the function by passing style and/or theme.
+
+Update default props:
+Some props may use style or theme as default prop.
+Appropriately handle those cases
+
+If the file ends in style.js or style.bikewale.js and it uses theme, here is how to solve it:
+Update the exported customStyle by making the keys return the key used in the original value for eg:
+ bgTeal: theme.backgroundColor['secondary-900'],
+becomes:
+ bgTeal: 'secondary-900',
+
+And in the consumption file if it uses the customStyle
+add the appropriate theme.<color>[customStyle.<key>]
+
+Be carefull only update theme or style related functions or lines.
+Do not add comments in the code.
+DO not remove existing comments
+Do not modify any imports other than theme
+Make sure the style object's var name is styles, and style or/and theme parameter is before exisiting parameters
+
+do for all files",,,,,,,,,,,,,,,245272,FE-13,Oxygen Native,Done,29/May/25 5:15 PM
+Oxygen - Need to add a new swiper component to our library Part 1,FE-20805,720101,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Rabindra Behera,6321b0d4a408c1e3a657cd5b,Rabindra Behera,6321b0d4a408c1e3a657cd5b,26/May/25 2:51 AM,23/Jun/25 5:21 PM,,16/Jun/25 8:37 PM,,,,,"CW, BW, CT & MO",,0,oxygen,,"Need a new swiper component 
+
+ref link - [https://material-you-slider.uiinitiative.com/|https://material-you-slider.uiinitiative.com/|smart-link] 
+
+[https://swiperjs.com/demos|https://swiperjs.com/demos|smart-link] ",,Rabindra Behera,,,,6321b0d4a408c1e3a657cd5b,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1654f637,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,13/Jun/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ou3b:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 146,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_517863882_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_2_*:*_26060949_*|*_10000_*:*_1_*:*_1325747654_*|*_10032_*:*_2_*:*_24404,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,16/Jun/25 6:13 PM
+ES: Tata Altroz Skin Fixes,FE-20782,719008,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,21/May/25 10:38 AM,23/May/25 5:55 PM,,23/May/25 5:55 PM,,,,,,,0,misc:added_after_sprint_start,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@298c25dc,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,21/May/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0o7y3:,,,,,,,,,0.0,0.0,,,,,,,,,,sprint 144,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_197801898_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_610332_*|*_10000_*:*_1_*:*_29177,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,23/May/25 5:55 PM
+Oxygen Native - Dark theme styles and component for app,FE-20700,714699,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Rabindra Behera,6321b0d4a408c1e3a657cd5b,Rabindra Behera,6321b0d4a408c1e3a657cd5b,08/May/25 12:36 PM,23/May/25 5:56 PM,,23/May/25 5:56 PM,,,,,"CW, BW, CT & MO",,0,oxygen-native,,"Need dark theme for both Android and iOS apps
+
+All styles, colors, components, and if on the app side any blocker ",,Rabindra Behera,,,,6321b0d4a408c1e3a657cd5b,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@32c94d6a,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,23/May/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0nplb:,,,,,,,,,0.0,0.0,,,,,,,,,,sprint 144,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_369558484_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_695215_*|*_10000_*:*_1_*:*_944398309,,,,,,,,,,,,,,,,245272,FE-13,Oxygen Native,Done,23/May/25 5:56 PM
+Oxygen[Core] Scrollspy ActiveIndex is not being updated correctly,FE-20676,713023,Bug,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Done,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,02/May/25 11:59 AM,09/May/25 3:59 PM,,09/May/25 3:59 PM,,,,,,,0,misc:added_after_sprint_start,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@128a536a,,,,,,,,,,,,C2,,,,,,,,,🟢 Lowest,,,,,,,,0.0,05/May/25 11:30 PM,,,,,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0nghj:,,Oxygen,,,,,,,0.0,0.0,findActiveIndex,,,,,,,,,Sprint 143,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_258856988_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_357735449_*|*_10000_*:*_1_*:*_21097,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,09/May/25 3:59 PM
+ES: Android IOS PB slug | clicks are not being registered,FE-20656,711623,Story,Unstarted,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Sagar Kakade,6321b303c7601c8e4abf2b47,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,28/Apr/25 11:02 AM,23/May/25 6:16 PM,,,,,,,,,0,,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@32159e78,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,08/May/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0n8zj:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 143,sprint 144,Oxygen Backlog,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,To Do,08/May/25 2:16 PM
+CWOPR: BW Bhrigu data missing,FE-20629,711320,Story,Unstarted,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Sagar Kakade,6321b303c7601c8e4abf2b47,Shashank S,63b3cbc2159df2c252e84a09,25/Apr/25 4:06 PM,12/May/25 11:21 AM,,,,,,,,,0,,,.,,Shashank S,,,,63b3cbc2159df2c252e84a09,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@28c97655,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0m9ga:i,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 143,ES Backlog,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,To Do,25/Apr/25 4:06 PM
+Native: Analysis: Dark Theme,FE-20626,711315,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Shashank S,63b3cbc2159df2c252e84a09,Shashank S,63b3cbc2159df2c252e84a09,25/Apr/25 4:01 PM,08/May/25 10:18 AM,,08/May/25 10:18 AM,,,,,,,0,,,[https://ct-tech.atlassian.net/wiki/x/CACoIw|https://ct-tech.atlassian.net/wiki/x/CACoIw],,Aditya Sawant,Shashank S,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,63b3cbc2159df2c252e84a09,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@542173c2,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,07/May/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0n813:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 143,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,2025-05-07 05:12:41.206,3_*:*_2_*:*_392123068_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_58097264_*|*_10000_*:*_2_*:*_592289417,07/May/25 10:42 AM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;[https://github.com/carwale/oxygen/pull/3069|https://github.com/carwale/oxygen/pull/3069],,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,08/May/25 10:18 AM
+Oxygen - Need to add some styles to our theme,FE-20617,710940,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Rabindra Behera,6321b0d4a408c1e3a657cd5b,Rabindra Behera,6321b0d4a408c1e3a657cd5b,24/Apr/25 3:57 PM,09/May/25 4:00 PM,,09/May/25 4:00 PM,,,,,"CW, BW, CT & MO",,0,oxygen,,"*Need to add some styles*
+
+border radius 8px for left, right, top, and bottom 
+
+width - 164px and 240px
+
+
+
+*Need to add some icons to Oxygen libraries* 
+
+!specs&features.svg|alt=""specs&features.svg""!
+
+!overview.svg|alt=""overview.svg""!",,Rabindra Behera,,,,6321b0d4a408c1e3a657cd5b,,,,,,,,,,,,25/Apr/25 5:05 PM;6321b0d4a408c1e3a657cd5b;overview.svg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/220957,25/Apr/25 5:05 PM;6321b0d4a408c1e3a657cd5b;specs&features.svg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/220958,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@71d6961c,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,07/May/25 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0n83v:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 143,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_104458890_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_134029_*|*_10000_*:*_2_*:*_1191528962_*|*_10032_*:*_1_*:*_41441,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,09/May/25 4:00 PM
+Oxygen - Need animation on click autocomplete & Custom Children above trending section.,FE-20612,710865,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Rabindra Behera,6321b0d4a408c1e3a657cd5b,Rabindra Behera,6321b0d4a408c1e3a657cd5b,24/Apr/25 2:30 PM,02/May/25 11:52 AM,,02/May/25 11:52 AM,,,,,"CW, BW, CT & MO",,0,oxygen,,"Need animation on click autocomplete
+
+On the home page autocomplete, on click it should scroll up to the viewport and then the dropdown appears
+
+[https://zpl.io/GnEAmYW|https://zpl.io/GnEAmYW|smart-link] ",,Rabindra Behera,,,,6321b0d4a408c1e3a657cd5b,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@72c48a53,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,02/May/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0n6nz:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 143,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_258794155_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_3448659_*|*_10000_*:*_1_*:*_419020226,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,02/May/25 11:52 AM
+CWOPOR : Analysis Module Txts setup,FE-20567,708058,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Shashank S,63b3cbc2159df2c252e84a09,Shashank S,63b3cbc2159df2c252e84a09,14/Apr/25 4:14 PM,18/Apr/25 3:18 PM,,18/Apr/25 3:18 PM,,,,,,,0,,,.,,Shashank S,,,,63b3cbc2159df2c252e84a09,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5f295bb,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,17/Apr/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0msv3:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 142,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_85091426_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_18110666_*|*_10000_*:*_1_*:*_239068554,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,Done,18/Apr/25 3:18 PM
+Oxygen Core - ScrollSpy Testcases breaking,FE-20527,707011,Bug,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Done,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,09/Apr/25 12:38 PM,10/Apr/25 2:24 PM,,10/Apr/25 2:24 PM,,,,,,,0,misc:added_after_sprint_start,,,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6f38ced7,,,,,,,,,,,,C2,,,,,,,,,🟢 Lowest,,,,,,,,0.0,10/Apr/25 11:30 PM,,,,,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0mnaf:,,Oxygen,,,,,,,0.0,0.0,,,,,,,,,,Sprint 141,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_12612971_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_80011159_*|*_10000_*:*_1_*:*_39827,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,10/Apr/25 2:24 PM
+CWOPR: TrackCustomData consmption.,FE-20479,704536,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,28/Mar/25 3:35 PM,28/Apr/25 10:58 AM,,24/Apr/25 11:17 AM,Release cwopr v25.4.9,,,,,,0,,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,21/Apr/25 12:00 AM,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@7a2ce62d,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,21/Apr/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ma6z:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 141,Sprint 142,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_286161782_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_61339183_*|*_10000_*:*_1_*:*_1797195713,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,Done,24/Apr/25 11:17 AM
+CWOPR: Anchor to Button in Wallpaper slot,FE-20477,704533,Bug,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Done,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,28/Mar/25 3:32 PM,15/Apr/25 2:27 PM,,10/Apr/25 4:09 PM,Release cwopr v25.4.3,,,,,,0,,,"Only wallpaper slots, 2 templates of webcast.",,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,15/Apr/25 12:00 AM,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@217532b4,,,,,,,,,,,,C2,,,,,,,,,🟢 Lowest,,,,,,,,0.0,10/Apr/25 2:20 PM,10/Apr/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ma6j:,,Oxygen,,,,,,,0.0,0.0,,,,,,,,,,Sprint 141,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_13391958_*|*_10042_*:*_2_*:*_89057_*|*_10041_*:*_2_*:*_228538_*|*_10000_*:*_1_*:*_1111689508_*|*_10123_*:*_1_*:*_9730_*|*_10001_*:*_1_*:*_0,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,Done,10/Apr/25 4:09 PM
+Native: ScrollSpy V2 developement,FE-20472,704528,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,28/Mar/25 3:29 PM,08/Apr/25 6:12 PM,,08/Apr/25 6:12 PM,,,,,,,0,,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@ed32c80,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,10/Apr/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ma63:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 141,,,,,5.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_537498974_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_224372_*|*_10000_*:*_1_*:*_422429799_*|*_10032_*:*_1_*:*_8196,,,,,,,,,,,,,,,,245272,FE-13,Oxygen Native,Done,08/Apr/25 6:12 PM
+esfrontend - Mahindra Ebony Skin fixes,FE-20427,703437,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,25/Mar/25 10:50 AM,27/Mar/25 5:29 PM,,27/Mar/25 5:29 PM,,,,,,,0,misc:added_after_sprint_start,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6a0a2514,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,25/Mar/25 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0m4bv:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 140,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_30959220_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_140527211_*|*_10000_*:*_1_*:*_32354,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,27/Mar/25 5:29 PM
+CWOPR- youtube Performance Improvement,FE-20396,700621,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Ayush Aryan,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,Ayush Aryan,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,17/Mar/25 12:24 PM,19/Mar/25 9:10 PM,,18/Mar/25 6:04 PM,Release cwopr v25.3.9,,,,,,0,,,.,,Ayush Aryan,,,,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,,,,,,,,,,,,,,,,,,,,,,,,,0.0,19/Mar/25 12:00 AM,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@eac3fe5,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,18/Mar/25 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0lp77:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 140,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_17208940_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_9638918_*|*_10000_*:*_1_*:*_79950858,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,Done,18/Mar/25 6:04 PM
+CWOPR - Analysis HTML setup,FE-20394,700619,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Ayush Aryan,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,Ayush Aryan,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,17/Mar/25 12:23 PM,28/Mar/25 5:49 PM,,28/Mar/25 5:49 PM,,,,,,,0,,,"h1. CWOPR: Modular Template Engine Developement.
+[https://github.com/carwale/cwopr/pull/5915|https://github.com/carwale/cwopr/pull/5915|smart-link] 
+f-fe-20394-cwopr-analysis-html-instead-of-string",,Ayush Aryan,,,,712020:a8a8a73e-5f24-48ef-85b8-cefc3964c58d,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1a353f30,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,26/Mar/25 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0lp6z:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 140,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_194525119_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_3984204_*|*_10000_*:*_2_*:*_771436145,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,Done,28/Mar/25 5:49 PM
+CWOPR - Traverse Ticker Automation,FE-20345,699818,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,12/Mar/25 10:39 AM,01/Apr/25 11:11 AM,,20/Mar/25 6:15 PM,Release cwopr v25.3.13,,,,,,0,misc:added_after_sprint_start,,Desktop Development Done ,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,25/Mar/25 12:00 AM,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@12d2f717,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,20/Mar/25 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ll8j:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 140,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_544212212_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_2_*:*_2417667_*|*_10000_*:*_3_*:*_171895585_*|*_10032_*:*_1_*:*_24149,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,Done,20/Mar/25 6:15 PM
+ES - Bhrigu tracking function in ES,FE-20252,696424,Story,Unstarted,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,28/Feb/25 4:21 PM,03/Mar/25 2:35 PM,,,,,,,,,0,,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6f8c902f,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0jykc:y,,,,,,,,,0.0,0.0,,,,,,,,,,ES Backlog,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,To Do,28/Feb/25 4:21 PM
+"Oxygen: Rheostat, Skin breaking on touch start",FE-20227,696131,Bug,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Done,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Rabindra Behera,6321b0d4a408c1e3a657cd5b,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,27/Feb/25 5:17 PM,04/Mar/25 4:44 PM,,04/Mar/25 4:44 PM,,,,,,,0,,,"on touch start, body is shrunken into height 100% we need to change it to max-content. Without this it breaks the skin.",,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1b2e9736,,,,,,,,,,,,C3,,,,,,,,,🟢 Lowest,,,,,,,,0.0,04/Mar/25 4:01 PM,,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0kzfb:,,Oxygen,,,,,,,0.0,0.0,,,,,,,,,,Sprint 139,,,,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_11939768_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_10548598_*|*_10000_*:*_1_*:*_407535510_*|*_10032_*:*_1_*:*_12502,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,04/Mar/25 4:44 PM
+Oxygen[Native] - Scrollspy performance - code refactoring,FE-20151,693144,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Shweta Saindane,6400656b4307e46ad1449cb5,Shweta Saindane,6400656b4307e46ad1449cb5,14/Feb/25 4:51 PM,17/Mar/25 11:28 AM,,05/Mar/25 6:13 PM,,,,,,,0,native,oxygen,"*Acceptance Criteria:* To achieve Avg FPS over 55 
+
+
+* Optimized Binary Search Algo. : No significant improvement
+* Debounced the scroll handler : FPS still drops below 10 when scrolled just a little bit.
+* Throttled the emitter: Same effect.
+* used UI Thread to emit: Same effect.
+
+Conclusion: Visually it feels better than what we started with, but when checked with flashlight, we can notice the fps drop below 10.
+
+Future Scope:
+Create a new prototype of ScrollSpy to improve this.",,Shweta Saindane,,,,6400656b4307e46ad1449cb5,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5fb9768d,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,06/Mar/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0klwb:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 138,Sprint 139,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_3_*:*_291281178_*|*_10042_*:*_1_*:*_0_*|*_10000_*:*_2_*:*_1354946000_*|*_10032_*:*_1_*:*_292258,,,,,,,,,,,,,,,,245272,FE-13,Oxygen Native,Done,05/Mar/25 6:13 PM
+esfrontend:Audi Q8 Caroulsel lb innovation Feb 2025,FE-20135,693106,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Sagar Kakade,6321b303c7601c8e4abf2b47,Sagar Kakade,6321b303c7601c8e4abf2b47,14/Feb/25 4:19 PM,27/May/25 6:18 PM,,19/Feb/25 10:49 AM,,,,,,,0,es,,"Hi [~accountid:6321dd8c978dae24dc06de82] ,
+We have to go live with caroulse lb innovation on Tuesday.
+
+[~accountid:63c0f905713349bea187cb7d] [~accountid:63b3cbc2159df2c252e84a09] [~accountid:637622195fc160544e17fae8] [~accountid:6321b2c2f8c7bc1f3583905f] ",,Aditya Sawant,Prasad Ahire,Sagar Kakade,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,63c0f905713349bea187cb7d,6321b303c7601c8e4abf2b47,,,,,,,,,,27/May/25 6:15 PM;c4ed0fd9-f9a5-4b86-a2dc-a07f8589eb28;0265-25_AUDI_MAY ADAPTS (1).zip;https://ct-tech.atlassian.net/rest/api/3/attachment/content/227588,17/Feb/25 6:21 PM;6321b303c7601c8e4abf2b47;CROPS (5).zip;https://ct-tech.atlassian.net/rest/api/3/attachment/content/206816,27/May/25 6:15 PM;c4ed0fd9-f9a5-4b86-a2dc-a07f8589eb28;NEW-AUDI-Q7-side-image2x@2x.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/227590,27/May/25 6:18 PM;c4ed0fd9-f9a5-4b86-a2dc-a07f8589eb28;NEW-AUDI-Q8-DESKTOP.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/227591,27/May/25 6:15 PM;c4ed0fd9-f9a5-4b86-a2dc-a07f8589eb28;NEW-Msite-q7-background-image@2x@2x.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/227589,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@198ca59c,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,18/Feb/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0klqj:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 138,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,2025-02-17 06:26:17.179,3_*:*_2_*:*_30950495_*|*_10042_*:*_1_*:*_0_*|*_10000_*:*_1_*:*_326839226_*|*_10032_*:*_1_*:*_54381312,17/Feb/25 11:56 AM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;[https://cwoprst.carwale.com/template/4829|https://cwoprst.carwale.com/template/4829],17/Feb/25 6:03 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;[https://cwoprst.carwale.com/template/5061|https://cwoprst.carwale.com/template/5061],"17/Feb/25 6:21 PM;6321b303c7601c8e4abf2b47;[^CROPS (5).zip]
+
+[~accountid:63b3cbc2159df2c252e84a09] You have to just replace the images. Will add lp soon.
+[~accountid:6321b2c2f8c7bc1f3583905f] [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [~accountid:6321dd8c978dae24dc06de82] [~accountid:63c0f905713349bea187cb7d] [~accountid:70121:a7995446-d849-4ddf-a7be-49ed722431f6] ","18/Feb/25 3:58 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;Operations Templates:
+Msite: 16873
+Dsite: 16871","27/May/25 6:15 PM;63c0f905713349bea187cb7d;Hi [~accountid:712020:d1487f8e-08e1-45fc-ba89-4b707b770c94] 
+
+Attached Audi Q7 Crops kindly replace the main image rest will be the same.
+
+Note : We need to share desktop mock so kindly replaced desktop image first.
+
+[^0265-25_AUDI_MAY ADAPTS (1).zip] 
+
+!NEW-Msite-q7-background-image@2x@2x.jpg|width=768,height=400,alt=""NEW-Msite-q7-background-image@2x@2x.jpg""!
+
+!NEW-AUDI-Q7-side-image2x@2x.jpg|width=919,height=312,alt=""NEW-AUDI-Q7-side-image2x@2x.jpg""!
+
+ [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [~accountid:63b3cbc2159df2c252e84a09] [~accountid:6321b303c7601c8e4abf2b47] [~accountid:6321dd8c978dae24dc06de82]","27/May/25 6:18 PM;63c0f905713349bea187cb7d;[~accountid:712020:d1487f8e-08e1-45fc-ba89-4b707b770c94] 
+
+Audi Q8 desktop crop
+
+
+
+
+
+!NEW-AUDI-Q8-DESKTOP.jpg|width=1828,height=624,alt=""NEW-AUDI-Q8-DESKTOP.jpg""!
+
+[~accountid:63b3cbc2159df2c252e84a09] [~accountid:6321b303c7601c8e4abf2b47] [~accountid:6321dd8c978dae24dc06de82]
+",,,,,,,,,,245273,FE-14,Editorial Sites,Done,19/Feb/25 10:49 AM
+esfrontend: Bajaj Freedom skin sitewide go live Feb 2025,FE-20124,692987,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Sagar Kakade,6321b303c7601c8e4abf2b47,Sagar Kakade,6321b303c7601c8e4abf2b47,14/Feb/25 11:45 AM,27/Feb/25 6:02 PM,,27/Feb/25 6:02 PM,,,,,,,0,es,,"Hi [~accountid:6321dd8c978dae24dc06de82] ,
+We are expecting skin on BikeWale of Bajaj Freedom in this month. 
+Mock is getting designed.
+Will update you exact go live date.
+
+[~accountid:6321dbf6ce3e476e42ac9e67] [~accountid:63c0f905713349bea187cb7d] [~accountid:70121:a7995446-d849-4ddf-a7be-49ed722431f6] [~accountid:6321b2c2f8c7bc1f3583905f] [~accountid:6321b2d33ead8137f44e494c] [~accountid:63b3cbc2159df2c252e84a09] [~accountid:637622195fc160544e17fae8] ",,Aditya Sawant,Devendra Singh,Prasad Ahire,Sagar Kakade,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,637622195fc160544e17fae8,63c0f905713349bea187cb7d,6321b303c7601c8e4abf2b47,,,,,,,,,25/Feb/25 12:05 PM;637622195fc160544e17fae8;BW-Common-Page-Skin-BG.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/207841,18/Feb/25 6:35 PM;637622195fc160544e17fae8;Bajaj Freedom D_Skin Update.mp4;https://ct-tech.atlassian.net/rest/api/3/attachment/content/207204,17/Feb/25 9:34 PM;637622195fc160544e17fae8;Bajaj Freedom D_Skin.mp4;https://ct-tech.atlassian.net/rest/api/3/attachment/content/206869,24/Feb/25 2:40 PM;637622195fc160544e17fae8;Desktop Crops.zip;https://ct-tech.atlassian.net/rest/api/3/attachment/content/207616,25/Feb/25 5:59 PM;637622195fc160544e17fae8;MODEL-PAGE-D.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/208067,24/Feb/25 5:44 PM;637622195fc160544e17fae8;Msite Homepage Crops.zip;https://ct-tech.atlassian.net/rest/api/3/attachment/content/207715,24/Feb/25 6:25 PM;637622195fc160544e17fae8;Msite Model Page Widget.zip;https://ct-tech.atlassian.net/rest/api/3/attachment/content/207739,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5c9eaa17,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,27/Feb/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0kl2r:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 138,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,2025-02-17 16:04:57.544,3_*:*_1_*:*_264224076_*|*_10042_*:*_1_*:*_0_*|*_10000_*:*_1_*:*_877651854_*|*_10032_*:*_2_*:*_3751144,"17/Feb/25 9:34 PM;637622195fc160544e17fae8;[~accountid:6321b303c7601c8e4abf2b47] [~accountid:6321b2c2f8c7bc1f3583905f] Bajaj Freedom skin mock
+
+!Bajaj Freedom D_Skin.mp4|width=1920,height=800,alt=""Bajaj Freedom D_Skin.mp4""!","18/Feb/25 6:13 PM;6321b303c7601c8e4abf2b47;[~accountid:637622195fc160544e17fae8] This requires some changes.
+ 
+Bajaj Logo on top right – remove World’s fav India. Retain just Bajaj logo in Blue square.
+
+Remove ‘Ride the Change’ from everywhere.
+
+Save 50% with CNG has to be far more prominent and must repeat a couple of times.
+
+Include “Aazadi Mehengai Se” and “Aazadi Pollution Se” at 1-2 places. You can reduced World’s 1st CNG since it is appearing quite a few times. Refer attached creative for the same.
+
+
+
+[~accountid:6321b2c2f8c7bc1f3583905f] ","18/Feb/25 6:35 PM;637622195fc160544e17fae8;[~accountid:6321b303c7601c8e4abf2b47] [~accountid:6321b2c2f8c7bc1f3583905f] 
+
+Bajaj Freedom Skin: All changes have been completed.
+
+!Bajaj Freedom D_Skin Update.mp4|width=1920,height=800,alt=""Bajaj Freedom D_Skin Update.mp4""!",24/Feb/25 1:36 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;Are the crops ready? [~accountid:6321b303c7601c8e4abf2b47] [~accountid:6321b2c2f8c7bc1f3583905f] ,"24/Feb/25 2:40 PM;637622195fc160544e17fae8;[~accountid:6321b303c7601c8e4abf2b47] [~accountid:6321b2c2f8c7bc1f3583905f] Bajaj Freedom Desktop Crops
+
+[^Desktop Crops.zip]
+
+*Desktop Sizes*
+
+*D_Site*
+All Widget H: 400
+
+Overlap Bike Image
+H: 322 px
+
+*Widget_1*
+Video Container: H: 282 px",24/Feb/25 2:48 PM;6321b303c7601c8e4abf2b47;[~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [~accountid:6321dd8c978dae24dc06de82] [~accountid:63b3cbc2159df2c252e84a09] Crops added.,24/Feb/25 3:55 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;YT Video link or id,"24/Feb/25 4:09 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;STG Template Ids
+
+
+
+||*Platform*||*Name*||*Id*||
+|Desktop|Bajaj Freedom | HP Skin | D | Feb 25|5461|
+|Desktop|Bajaj Freedom | HP Banner | D | Feb 25|5463|
+|Desktop|Bajaj Freedom | HP SW 1 | D | Feb 25|5465|
+|Desktop|Bajaj Freedom | HP PQ | D | Feb 25|5469|
+|Desktop|Bajaj Freedom | HP SW 2 | D | Feb 25|5471|","24/Feb/25 5:44 PM;637622195fc160544e17fae8;[~accountid:6321b303c7601c8e4abf2b47] [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [~accountid:6321b2c2f8c7bc1f3583905f] Bajaj Freedom Msite Homepage Crops
+
+*M_Site*
+*Widget_1 H: 450*
+*Widget* *PQ & 2nd H*: *400*
+Video Container H: 168
+
+Overlap Bike Image H: 144
+
+[^Msite Homepage Crops.zip]
+
+","24/Feb/25 6:25 PM;637622195fc160544e17fae8;[~accountid:6321b303c7601c8e4abf2b47] [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [~accountid:6321b2c2f8c7bc1f3583905f] Bajaj Freedom Msite Modelpage Crops
+
+[^Msite Model Page Widget.zip]
+
+*M_Site* 
+*All Widget H: 400*
+
+*Widget_1: BG Image 2x*
+Video Container
+H: 168 px
+
+Overlap Bike Image
+H: 144 px
+
+*Widget_2: BG Image 2x*
+Feature Container H: 151 px
+Text Size H: 64",25/Feb/25 10:21 AM;6321b303c7601c8e4abf2b47;[~accountid:63c0f905713349bea187cb7d] ,"25/Feb/25 12:05 PM;637622195fc160544e17fae8;[~accountid:6321b303c7601c8e4abf2b47] [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [~accountid:6321b2c2f8c7bc1f3583905f]BW Common Page Skin BG
+
+!BW-Common-Page-Skin-BG.jpg|width=768,height=800,alt=""BW-Common-Page-Skin-BG.jpg""!","25/Feb/25 12:40 PM;63c0f905713349bea187cb7d;Hi [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] 
+
+ Attached landing page for Bajaj Freedom Skinning.
+Link : [https://www.bajajauto.com/bikes/bajaj-freedom?utm_source=Bikewale&utm_medium=Media&utm_customdetails1=Freedom_Consideration_D2C&utm_customdetails2=Display_Aggregator|https://www.bajajauto.com/bikes/bajaj-freedom?utm_source=Bikewale&utm_medium=Media&utm_customdetails1=Freedom_Consideration_D2C&utm_customdetails2=Display_Aggregator]
+
+[~accountid:6321b303c7601c8e4abf2b47] [~accountid:70121:a7995446-d849-4ddf-a7be-49ed722431f6]  [~accountid:6321dd8c978dae24dc06de82] [~accountid:63b3cbc2159df2c252e84a09] [~accountid:6321b2c2f8c7bc1f3583905f] [~accountid:637622195fc160544e17fae8] 
+","25/Feb/25 12:48 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;[https://docs.google.com/spreadsheets/d/1cjTKfeisW8zJtX4YX1hj8W9Pf6lcYVKNnet8IWLAJM0/edit?gid=0#gid=0|https://docs.google.com/spreadsheets/d/1cjTKfeisW8zJtX4YX1hj8W9Pf6lcYVKNnet8IWLAJM0/edit?gid=0#gid=0|smart-link] 
+Template Ids on Operations","25/Feb/25 5:59 PM;637622195fc160544e17fae8;[~accountid:6321b303c7601c8e4abf2b47] [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [~accountid:6321b2c2f8c7bc1f3583905f]  D_Site Model page 
+
+!MODEL-PAGE-D.jpg|width=1920,height=3933,alt=""MODEL-PAGE-D.jpg""!",245273,FE-14,Editorial Sites,Done,27/Feb/25 6:02 PM
+Oxygen - We need padding option in Tick Container component,FE-20120,692737,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Rabindra Behera,6321b0d4a408c1e3a657cd5b,Rabindra Behera,6321b0d4a408c1e3a657cd5b,13/Feb/25 3:19 PM,03/Mar/25 11:06 AM,,24/Feb/25 1:29 PM,,,,,,,0,oxygen,,"Tick container component need padding option
+
+Padding - 8px and 12px
+
+width 24px
+
+all tick container(radio, checkbox, and tick container
+
+----
+
+* Need to add new option for size {{xsm}}
+* Apply left right top bottom padding : 8px
+* Update all instances of tickcontainer
+
+
+Delayed update in JIRA, ",,Rabindra Behera,,,,6321b0d4a408c1e3a657cd5b,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@4e14c1a3,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,19/Feb/25 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0kjqz:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 138,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_441134904_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_188588_*|*_10000_*:*_1_*:*_502407951_*|*_10032_*:*_1_*:*_15757,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,24/Feb/25 1:29 PM
+[Msite+Desk] Model Page: Multiple H1 coming across Carwale,FE-20106,692208,Bug,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Done,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Anuj Nibhoria,62f1d7b4f15eecaf500f95db,Anuj Nibhoria,62f1d7b4f15eecaf500f95db,11/Feb/25 4:33 PM,08/Apr/25 1:48 PM,,12/Feb/25 5:31 PM,,,,,,11/Feb/25 12:00 AM,0,misc:added_after_sprint_start,,"Multiple H1 tags created across Carwale pages.
+
+Issue observed across all pages including make, model, PIC etc.
+
+ss
+
+
+
+!image (66).png|width=578,height=466,alt=""image (66).png""!",,Anuj Nibhoria,Purohith Guguloth,,,62f1d7b4f15eecaf500f95db,62e1ff489e39d087ee5c8dbe,,,,,,,,,,,11/Feb/25 4:33 PM;62f1d7b4f15eecaf500f95db;image (66).png;https://ct-tech.atlassian.net/rest/api/3/attachment/content/205158,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1e41b10b,,,,,,,,,,,,C0,,,,,,,,,🟢 Lowest,,,,,,,,0.0,11/Feb/25 5:33 PM,,,,,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0kh1j:,,Carwale web,,,,,,,0.0,0.0,,,,,,,,,,Sprint 137,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,2025-02-12 07:50:23.996,3_*:*_2_*:*_62635892_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_2_*:*_25843311_*|*_10000_*:*_1_*:*_1185543_*|*_10032_*:*_1_*:*_2365,12/Feb/25 1:20 PM;62e1ff489e39d087ee5c8dbe;test comment,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,12/Feb/25 5:31 PM
+esfrontend: Hero Destini Key Highlight Brouchure Golive Jan 2025,FE-19988,688260,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Sagar Kakade,6321b303c7601c8e4abf2b47,Sagar Kakade,6321b303c7601c8e4abf2b47,29/Jan/25 5:25 PM,04/Feb/25 6:37 PM,,04/Feb/25 6:37 PM,,,,,,,0,es,,"Hi [~accountid:6321dd8c978dae24dc06de82] 
+We are expecting Key Highlight Brouchure for Hero Destini. 
+
+Today we have sent for approval. Will let you know once we get approval.
+
+Atatched msite mock for reference.
+
+[~accountid:6321dbf6ce3e476e42ac9e67] [~accountid:6321b2d33ead8137f44e494c] [~accountid:70121:a7995446-d849-4ddf-a7be-49ed722431f6] [~accountid:63b3cbc2159df2c252e84a09] 
+
+
+!Key Highlight Property Mock (1).mp4|width=720,height=1280,alt=""Key Highlight Property Mock (1).mp4""!",,Aditya Sawant,Prince Saini,Sagar Kakade,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,6321b2d33ead8137f44e494c,6321b303c7601c8e4abf2b47,,,,,,,,,,31/Jan/25 5:53 PM;6321b303c7601c8e4abf2b47;Bikewale_Tags_HeroMotocorp_Destini125_JFM25_Hero Moto Corp (1).xls;https://ct-tech.atlassian.net/rest/api/3/attachment/content/202979,31/Jan/25 11:37 AM;6321b303c7601c8e4abf2b47;Desktop Crops.zip;https://ct-tech.atlassian.net/rest/api/3/attachment/content/202830,03/Feb/25 3:58 PM;6321b2d33ead8137f44e494c;Desktop-BG-Image.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/203194,31/Jan/25 3:44 PM;6321b303c7601c8e4abf2b47;Feature Image 3 Msite.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/202917,31/Jan/25 3:43 PM;6321b303c7601c8e4abf2b47;Feature Image 4 Msite.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/202914,03/Feb/25 3:58 PM;6321b2d33ead8137f44e494c;Image 1.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/203196,03/Feb/25 3:58 PM;6321b2d33ead8137f44e494c;Image 2.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/203195,03/Feb/25 3:58 PM;6321b2d33ead8137f44e494c;Image 3.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/203192,03/Feb/25 3:58 PM;6321b2d33ead8137f44e494c;Image 4 (3ed30bb6-b5b1-4fcc-a171-cb9f0e670ae9).jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/203193,31/Jan/25 3:43 PM;6321b303c7601c8e4abf2b47;Image 4.jpg;https://ct-tech.atlassian.net/rest/api/3/attachment/content/202913,29/Jan/25 5:25 PM;6321b303c7601c8e4abf2b47;Key Highlight Property Mock (1).mp4;https://ct-tech.atlassian.net/rest/api/3/attachment/content/202408,30/Jan/25 6:15 PM;6321b303c7601c8e4abf2b47;Msite Crops.zip;https://ct-tech.atlassian.net/rest/api/3/attachment/content/202755,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@5ece89b9,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,03/Feb/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0jvlr:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 137,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,2025-01-31 07:37:53.189,3_*:*_1_*:*_111578402_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_119315_*|*_10000_*:*_1_*:*_411027758_*|*_10032_*:*_1_*:*_5159,30/Jan/25 6:15 PM;6321b303c7601c8e4abf2b47;* [~accountid:63b3cbc2159df2c252e84a09] [~accountid:6321dd8c978dae24dc06de82] [^Msite Crops.zip] ,30/Jan/25 6:17 PM;6321b303c7601c8e4abf2b47;[~accountid:6321b2d33ead8137f44e494c] ,31/Jan/25 11:37 AM;6321b303c7601c8e4abf2b47;[~accountid:6321dd8c978dae24dc06de82] [~accountid:63b3cbc2159df2c252e84a09] [^Desktop Crops.zip] ,"31/Jan/25 1:07 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;|5301|Hero Destini | Clickable Ticker & Dynamic Brochure | M | Jan 2025|
+
+|5307|Hero Destini | Clickable Ticker & Dynamic Brochure | M | Jan 2025|","31/Jan/25 3:43 PM;6321b303c7601c8e4abf2b47;* [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] Please refer attached image for feature number 4
+
+
+
+!Feature Image 4 Msite.jpg|width=614,height=508,alt=""Feature Image 4 Msite.jpg""!
+
+!Image 4.jpg|width=420,height=350,alt=""Image 4.jpg""!","31/Jan/25 3:44 PM;6321b303c7601c8e4abf2b47;[~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] Please find the attached revised image for feature 3.
+[~accountid:6321dd8c978dae24dc06de82] 
+
+!Feature Image 3 Msite.jpg|width=614,height=508,alt=""Feature Image 3 Msite.jpg""!
+
+ ","31/Jan/25 4:15 PM;6321b303c7601c8e4abf2b47;[~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [~accountid:63b3cbc2159df2c252e84a09] [~accountid:6321dd8c978dae24dc06de82] [~accountid:6321dbf6ce3e476e42ac9e67] 
+
+LP-[https://ad.doubleclick.net/ddm/trackclk/N1322625.4294833BIKEWALE/B33029641.414224475;dc_trk_aid=606108069;dc_trk_cid=229399175;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1|https://ad.doubleclick.net/ddm/trackclk/N1322625.4294833BIKEWALE/B33029641.414224475;dc_trk_aid=606108069;dc_trk_cid=229399175;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=$%7BGDPR%7D;gdpr_consent=$%7BGDPR_CONSENT_755%7D;ltd=;dc_tdv=1|smart-link] 
+
+
+Impressions Tag-[https://ad.doubleclick.net/ddm/trackimp/N1322625.4294833BIKEWALE/B33029641.414224475;dc_trk_aid=606108069;dc_trk_cid=229399175;ord=%%CACHEBUSTER%%;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=|https://ad.doubleclick.net/ddm/trackimp/N1322625.4294833BIKEWALE/B33029641.414224475;dc_trk_aid=606108069;dc_trk_cid=229399175;ord=%%CACHEBUSTER%%;dc_lat=;dc_rdid=;tag_for_child_directed_treatment=;tfua=;gdpr=${GDPR};gdpr_consent=${GDPR_CONSENT_755};ltd=]","31/Jan/25 5:53 PM;6321b303c7601c8e4abf2b47;[~accountid:63b3cbc2159df2c252e84a09] [~accountid:6321dd8c978dae24dc06de82] [~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] [^Bikewale_Tags_HeroMotocorp_Destini125_JFM25_Hero Moto Corp (1).xls] 
+
+Tags added.","03/Feb/25 3:58 PM;6321b2d33ead8137f44e494c;[~accountid:712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634] 
+
+!Desktop-BG-Image.jpg|width=1940,height=1092,alt=""Desktop-BG-Image.jpg""!
+
+!Image 1.jpg|width=840,height=700,alt=""Image 1.jpg""!
+
+
+
+!Image 2.jpg|width=840,height=700,alt=""Image 2.jpg""!
+
+
+
+!Image 3.jpg|width=840,height=700,alt=""Image 3.jpg""!
+
+
+
+!Image 4 (3ed30bb6-b5b1-4fcc-a171-cb9f0e670ae9).jpg|width=840,height=700,alt=""Image 4.jpg""!
+
+[~accountid:6321b2c2f8c7bc1f3583905f] [~accountid:6321b303c7601c8e4abf2b47] ","03/Feb/25 6:38 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;|5311|Hero Destini | Clickable Ticker & Dynamic Brochure | M | Jan 2025|
+
+|5309|Hero Destini | Clickable Ticker & Dynamic Brochure | D | Jan 2025|",,,,,,245273,FE-14,Editorial Sites,Done,04/Feb/25 6:37 PM
+esfrontend: Honda Elevate Black Edition Skin Widgets go live Jan 2025,FE-19899,684608,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,20/Jan/25 12:29 PM,08/Apr/25 1:49 PM,,21/Jan/25 11:23 AM,,,,,,,0,,,[https://ct-tech.atlassian.net/browse/FE-19833|https://ct-tech.atlassian.net/browse/FE-19833|smart-link] ,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,0,0,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6865f459,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,20/Jan/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0jbtr:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 136,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_81952749_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_285908_*|*_10000_*:*_1_*:*_38082_*|*_10032_*:*_1_*:*_3612,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,21/Jan/25 11:23 AM
+CWOPR: New Banner WebP image conversion on upload,FE-19886,684342,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,17/Jan/25 5:03 PM,03/Feb/25 11:12 AM,,30/Jan/25 4:34 PM,Release cwopr v25.1.19,,,,,,0,,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,30/Jan/25 12:00 AM,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@c829161,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,27/Jan/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0jakv:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 136,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_619301749_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_5450409_*|*_10000_*:*_1_*:*_496439693,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,Done,30/Jan/25 4:34 PM
+Use Inview Hook [dom reduction] Report,FE-19840,683806,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,16/Jan/25 2:15 PM,23/Jan/25 12:36 PM,,23/Jan/25 12:36 PM,,,,,,,0,,,.,,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@4e496268,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,22/Jan/25 12:00 AM,,,Low,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0jbh7:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 136,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_29485862_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_65532848_*|*_10000_*:*_1_*:*_503859723,22/Jan/25 4:35 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;lt-cw-fe-19840-before-uivh-changes,"22/Jan/25 5:46 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;After hash: d3ed41ae5a36928fa15ff5fefc5d1a80078607fa
+Before hash: 501d2a1f26b30f335199b17e69a92954208403d1","22/Jan/25 6:24 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;[https://docs.google.com/document/d/1_-IlGve3EO1ISl0emZpj_q7rnqstTtSoNn6a9KLn5nc/edit?usp=sharing|https://docs.google.com/document/d/1_-IlGve3EO1ISl0emZpj_q7rnqstTtSoNn6a9KLn5nc/edit?usp=sharing|smart-link] 
+
+Report Link",,,,,,,,,,,,,245271,FE-12,Oxygen,Done,23/Jan/25 12:36 PM
+esfrontend : Acko link integration go live Jan 2025,FE-19777,681590,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Sagar Kakade,6321b303c7601c8e4abf2b47,Sagar Kakade,6321b303c7601c8e4abf2b47,09/Jan/25 5:13 PM,14/Jan/25 5:18 PM,,14/Jan/25 5:18 PM,,,,,,,0,es,misc:added_after_sprint_start,"Hi [~accountid:6321dd8c978dae24dc06de82],
+
+Please help us with link integration for the Acko campaign. 
+
+
+Will share the landing page once we get from the client. 
+
+
+|Models|Make|Savings|
+|Thar Roxx|Mahindra|39130|
+|XUV 3XO|Mahindra|26951|
+|Curvv|Tata|33058|
+|Curvv EV|Tata|38260|
+|Windsor EV|MG|26965|
+|Thar|Mahindra|30622|
+|XEV 9e|Mahindra|53067|
+|BE 6|Mahindra|46803|
+|Kylaq|Skoda|25054|
+|Alto K10|Maruti Suzuki|10091|
+|Dzire|Maruti Suzuki|17642|
+
+[~accountid:6321dbf6ce3e476e42ac9e67] [~accountid:631ad090d8850343ef5a865e] [~accountid:70121:a7995446-d849-4ddf-a7be-49ed722431f6] ",,Sagar Kakade,,,,6321b303c7601c8e4abf2b47,,,,,,,,,0,0,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@33c5976a,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,14/Jan/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0iw9l:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 135,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_16217578_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_2_*:*_64465_*|*_10000_*:*_2_*:*_415821747_*|*_10032_*:*_1_*:*_160657,"13/Jan/25 12:55 PM;6321b303c7601c8e4abf2b47;[~accountid:631ad090d8850343ef5a865e] [~accountid:6321dd8c978dae24dc06de82] [~accountid:6321dbf6ce3e476e42ac9e67] 
+Existing templates
+Android-7239
+Desktop-7235
+iOS-7641
+Msite-7237
+
+|PFB the links:| |
+| | |
+|Thar Roxx|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_TharRoxx_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_TharRoxx_NewCar]|
+|XUV 3XO|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_XUV3XO_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_XUV3XO_NewCar]|
+|Curvv|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_Currv_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_Currv_NewCar]|
+|Curvv EV|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_CurrvEV_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_CurrvEV_NewCar]|
+|Windsor EV|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_WindsorEV_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_WindsorEV_NewCar]|
+|Thar|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_Thar_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_Thar_NewCar]|
+|XEV 9e|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_XEV9e_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_XEV9e_NewCar]|
+|BE 6|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_BE6_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_BE6_NewCar]|
+|Kylaq|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_Kylaq_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_Kylaq_NewCar]|
+|Alto K10|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_AltoK10_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_AltoK10_NewCar]|
+|Dzire|[https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_Dzire_NewCar|https://www.acko.com/gi/lp/brand-new-car?utm_source=Carwale&utm_medium=Website&utm_campaign=Carwale_Dzire_NewCar]|",,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,14/Jan/25 5:18 PM
+CWOPR : Module Analysis,FE-19739,679851,Story,Unstarted,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Shashank S,63b3cbc2159df2c252e84a09,Shashank S,63b3cbc2159df2c252e84a09,06/Jan/25 12:14 PM,17/Jan/25 3:09 PM,,,,,,,,,0,,,.,,Shashank S,,,,63b3cbc2159df2c252e84a09,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@4952452a,,,,,,,,,,,,,,,,,,,,,🟢 Lowest,,,,,,,,0.0,,17/Jan/25 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0in0h:,,,,,,,,,0.0,0.0,,,,,,,,,,Tech Backlog,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,To Do,14/Jan/25 12:42 PM
+ES : SwiperJS Analysis,FE-19724,679445,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Shashank S,63b3cbc2159df2c252e84a09,Shashank S,63b3cbc2159df2c252e84a09,03/Jan/25 5:32 PM,13/Jan/25 10:51 AM,,13/Jan/25 10:51 AM,,,,,,,0,,,"Base Development is Done, 
+Essential mods are extracted and a playground is made.
+
+* Publish this script in a repo
+* Reduce Js Size
+
+
+Started on 7th hence only 2 points being used.
+Issue with expected date.",,Shashank S,,,,63b3cbc2159df2c252e84a09,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@6f9a3919,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,10/Jan/25 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0il3t:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 135,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_117167641_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_316151033_*|*_10000_*:*_1_*:*_405957933_*|*_10032_*:*_1_*:*_4057,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,13/Jan/25 10:51 AM
+CWOPR : PQ Banner not clickable,FE-19718,679425,Bug,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Done,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Shashank S,63b3cbc2159df2c252e84a09,Shashank S,63b3cbc2159df2c252e84a09,03/Jan/25 5:08 PM,17/Jan/25 10:19 AM,,17/Jan/25 10:19 AM,Release cwopr v25.1.10,,,,,,0,,,.,,Shashank S,,,,63b3cbc2159df2c252e84a09,,,,,,,,,0,0,,,,,,,,,,,,,,,,16/Jan/25 12:00 AM,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@69e4fcd7,,,,,,,,,,,c3,C2,,,,,,,,,,,,,,,,,,10/Jan/25 6:00 PM,,,,,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0il1d:,,CWOPR,,,,,,,0.0,0.0,,,,,,,,,,Sprint 135,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_62675134_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_67838155_*|*_10000_*:*_2_*:*_985282222,,,,,,,,,,,,,,,,413705,FE-9570,OPR Enhancments,Done,17/Jan/25 10:19 AM
+ES - Mahindra BEV Dynamic Glass Morphism Skin HP Home & Model Widgets Dec 2024,FE-19678,677849,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Ajit Tupe,6321dd8c978dae24dc06de82,Ajit Tupe,6321dd8c978dae24dc06de82,26/Dec/24 5:21 PM,02/Jan/25 12:10 PM,,02/Jan/25 12:10 PM,,,,,,,0,misc:added_after_sprint_start,,Main story: [https://ct-tech.atlassian.net/browse/FE-19660|https://ct-tech.atlassian.net/browse/FE-19660|smart-link] ,,Aditya Sawant,Ajit Tupe,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,6321dd8c978dae24dc06de82,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@76e69178,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,30/Dec/24 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ics9:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 134,,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,2024-12-26 13:27:36.252,3_*:*_2_*:*_242179575_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_60401_*|*_10000_*:*_2_*:*_78617320_*|*_10032_*:*_3_*:*_265107156,26/Dec/24 6:57 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;branch : f-fe-19678-es-mahindra-bev-dynami-hp-pq-banner-dec-2024,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,02/Jan/25 12:10 PM
+"Horizontal Rheostat Add ""0"" to the left and ""Any"" to the right ends of the rheostat.",FE-19633,676190,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Shreya Marwale,6321dcb6051efc698567248b,Shreya Marwale,6321dcb6051efc698567248b,19/Dec/24 3:33 PM,27/Dec/24 4:52 PM,,27/Dec/24 4:52 PM,,,,,"CW, BW, CT & MO",,0,,,"Horizontal Rheostat Add ""0"" to the left and ""Any"" to the right ends of the rheostat. Remove overlapping dash or other visual interference near the ends of the rheostat.
+
+[https://zpl.io/EdmOrvn|https://zpl.io/EdmOrvn|smart-link] 
+
+----
+
+Prop name: {{labelPosition}}
+
+Values: bottom, side",,Shreya Marwale,,,,6321dcb6051efc698567248b,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@34aa6aaf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,26/Dec/24 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0i3q9:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 134,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_274033008_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_5432025_*|*_10000_*:*_2_*:*_415479908_*|*_10032_*:*_1_*:*_192408,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,27/Dec/24 4:52 PM
+esfrontend-BMW 5 Series Roadblock Go Live December 2024 | Color changing widget,FE-19578,673750,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,11/Dec/24 11:03 AM,16/Dec/24 10:16 AM,,16/Dec/24 10:16 AM,,,,,,,0,misc:added_after_sprint_start,,"Parent Story: [https://ct-tech.atlassian.net/browse/FE-19570|https://ct-tech.atlassian.net/browse/FE-19570|smart-link] 
+
+Part 3: Color changing WIdget",,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2b4bd597,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13/Dec/24 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0hqfc:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 133,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_31034277_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_228719586_*|*_10000_*:*_1_*:*_169366251_*|*_10032_*:*_1_*:*_3890,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,16/Dec/24 10:16 AM
+esfrontend-BMW 5 Series Roadblock Go Live December 2024 | LB Innovation,FE-19573,673743,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,11/Dec/24 11:01 AM,16/Dec/24 10:21 AM,,16/Dec/24 10:16 AM,,,,,,,0,misc:added_after_sprint_start,,"Parent Story: [https://ct-tech.atlassian.net/browse/FE-19570|https://ct-tech.atlassian.net/browse/FE-19570|smart-link] 
+Part 1: LB Innovation",,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@79d008b7,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,16/Dec/24 12:00 AM,,,High,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0hqf9:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 133,,,,,1.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_227562524_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_1073878_*|*_10000_*:*_1_*:*_200632635,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,16/Dec/24 10:21 AM
+ES : Go Live Jeep Banner Update,FE-19557,672693,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,High,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,09/Dec/24 12:47 PM,11/Dec/24 6:15 PM,,11/Dec/24 6:15 PM,,,,,,,0,,,"Currently in working state.
+Todo: Make the carousal on banner to be user interactive.",,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@732a9faf,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,11/Dec/24 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0hl2x:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 133,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_85005744_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_104350_*|*_10000_*:*_1_*:*_78653234_*|*_10032_*:*_1_*:*_28302156,,,,,,,,,,,,,,,,245273,FE-14,Editorial Sites,Done,11/Dec/24 6:15 PM
+"Oxygen: Expand Collapse, HasDynamicChild: Read more button appears and disappears. Analysis.",FE-19527,672303,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,06/Dec/24 4:35 PM,22/Dec/24 9:37 AM,,22/Dec/24 9:37 AM,,,,,,,0,,," HasDynamicChild: Read more button appears and disappears. Analysis.
+For Expand Collapse: Check key and type while has dynamic children.
+
+*Analysis:* Will create multiple examples involving dynamic children. And for {{Read More}} , work on the lines of calculating the need for this button beforehand.",,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@77a9afed,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,17/Dec/24 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0hiw0:zi,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 133,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_1_*:*_168448663_*|*_10042_*:*_1_*:*_0_*|*_10041_*:*_1_*:*_90308703_*|*_10000_*:*_1_*:*_842326021,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,22/Dec/24 9:37 AM
+Oxygen - Analysis Input legend component issue in CT,FE-19518,672163,Bug,Invalid,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Highest,,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Rabindra Behera,6321b0d4a408c1e3a657cd5b,Rabindra Behera,6321b0d4a408c1e3a657cd5b,06/Dec/24 11:23 AM,31/Jan/25 4:03 PM,,,,,,,"CW, BW, CT & MO",,0,oxygen,,"InputLegend component has some issues in CT which are working fine in CW. the Legend does not translate above the input field when we focus on it. 
+After discussion with UI team this seems to be some issue with CSS styling on CT that is overriding Oxygen Styling.
+
+!image-20241206-055223.png|width=512,height=199,alt=""image-20241206-055223.png""!",,Aditya Sawant,Manish Kukreja,Rabindra Behera,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,712020:3d848091-638a-4966-850d-55ebe8b03f94,6321b0d4a408c1e3a657cd5b,,,,,,,,,,06/Dec/24 11:23 AM;6321b0d4a408c1e3a657cd5b;image-20241206-055223.png;https://ct-tech.atlassian.net/rest/api/3/attachment/content/191109,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@1b03c952,,,,,,,,,,,,C2,,,,,,,,,,,,,,,,,,09/Jan/25 12:19 PM,23/Dec/24 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0hiw0:v,,Oxygen,,,,,,,0.0,0.0,,,,,,,,,,Sprint 133,Sprint 134,Sprint 135,Sprint 136,,0.0,,,,,,,,,,,,,,,,,,,,,,,,,2025-01-03 06:43:46.537,,"03/Jan/25 12:13 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;{noformat}Report:
+
+Day 1: Understood the problem from Ritik and Saksham,
+Tried to replicate the issue in docs. By copying the consumption side props into docs. It worked fine, as expected.
+
+-- Was able to replicte the end bug, but under different situations.
+
+Tried to find a flaw in the state handlings of Input Legend component. There was none.
+Understood the flow of data in both CT and CW.
+
+Findings of Day 1: INITIAL_STATE in both CT and CW is different.
+In CT ""location"" key is not present in the object, but in CW it is.
+But while rendering it was somehow getting the data.
+
+Tried to hardcode the value, but had no effect.
+
+Day 2: Copied the whole Input Legend component into a temporary folder in carwaleweb for easier compoent updates.
+Manually debuged the flow of component, 
+Each function was fired as expected in both CT and CW. And the states are also the same.
+
+After having conversation with Saksham's team, I understood that, this bug originated due to placeholder and lable being the same. 
+I then reverted the change by making them different, this did solve the problem.
+Then I ran CT and CW simultaneosly to find out differences. The one prominent thing I noticed was,
+The LocationInput component, [which had Input Legend as child] rendered twice in CT, but in CW it rerendered about eight times.
+I couldn't figure out the reason.
+
+The other thing I noticed was, the serverside rendered output of CT and CW is drastically different.
+In CT there is no data present, even if I selected ""Mumbai"" as location, the serverside rendered output doesn't have it,
+but on the other hand in CW serverside rendered output has the ""Mumbai"" location data present, 
+and the Input Legend behaving accurately by making the lable go to top.
+
+---
+After being classified as bug, I worked on it for a day. Here is the report for it:
+This time I focused on Input Legend rather than LocationInput.
+
+I logged each variable and state at every lifecycle method.
+The results were as expected. Enayat and Shashank suggested that this may be due the component loosing 
+focus. Hence I attached a ref and focused and blured the IL after some timeout. The ouputs of log were
+expected the but issue was not solved.
+
+---
+Conclusion:
+There is a stark difference between the server-side rendered output of CT and CW.
+In CW the selected location is set during serverside rendering, but in CT it is not.
+Another point, when changing label and placeholder to anything other than ""City"", the server-side component has the lable/placehold as ""City""
+
+The only condition where the bug is not present is when lable and placeholder values are different.
+But in IL the condition where they are equal is handled.
+I was not able to replicate this but in oxygen docs.
+
+Probable Cause:
+Location is not present server-side:
+Difference between rendering in CT and CW.
+Invocation of Select City popup ?? 
+
+{noformat}","06/Jan/25 10:45 AM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;This story is being rejected due it being classified wrong as a story.
+It will be inserted again in the sprint as a Bug.
+
+Reasons: 
+Unable to pinpoint the exact cause of Input Legend breaking in CT in the only case of City.",30/Jan/25 10:38 AM;712020:3d848091-638a-4966-850d-55ebe8b03f94;[~accountid:6321b0d4a408c1e3a657cd5b] please check ,"31/Jan/25 4:03 PM;712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634;After discussing with Saksham, This cannot be solved from Oxygen’s end, hence we are marking as invalid.",,,,,,,,,,,,245271,FE-12,Oxygen,Done,31/Jan/25 4:03 PM
+UseInViewHook consumption,FE-19240,664007,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,06/Nov/24 1:11 PM,14/Jan/25 1:27 PM,,19/Nov/24 11:31 AM,Release Bikewale v-bw-24.11.6,Release CarTrade v-ct-24.11.6,Release Carwale v-cw-24.11.7,Release MobilityOutlook v-mo-25.1.1.1,,,0,misc:added_after_sprint_start,,"*Requirement*:-
+Currently in useInViewHook we have added the functionality as Track. Consume useInViewHook in place of Track on Model Page.
+
+*Analysis*:- 
+
+
+
+*Acceptance state*:-
+Check with working example as tracking is fired or not.
+
+
+
+*Retro:-*
+
+2 Day delay to merge into develop. Reason: E2E was failing because of some reason unrelated to this story.",,Aditya Sawant,,,,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,,,,,,,,,0,0,,,,,,,,,,,,,,,,19/Nov/24 12:00 AM,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@2a4b3bd0,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,08/Nov/24 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0gaxt:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 130,Sprint 131,,,,3.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_568372686_*|*_10042_*:*_1_*:*_41962_*|*_10041_*:*_1_*:*_233312876_*|*_10000_*:*_2_*:*_315448202_*|*_10001_*:*_1_*:*_0,,,,,,,,,,,,,,,,245271,FE-12,Oxygen,Done,19/Nov/24 11:31 AM
+UseInViewHook consumption,FE-19021,655153,Story,Done,FE,Frontend-Engg,software,Madhuri Patil,607d73cade34400071752bd9,,Medium,Accepted,Aditya Sawant,712020:cd38e31d-9a61-4f5b-8d6e-77fcd14d5634,Enayatullah SM,6321dd8cf8c7bc1f358398b6,Shweta Saindane,6400656b4307e46ad1449cb5,14/Oct/24 11:56 AM,28/Oct/24 10:10 AM,,28/Oct/24 10:10 AM,,,,,,,0,,,"*Requirement*:-
+Currently in useInViewHook we have added the functionality as Track but now TrackImpressionWithWait is develop here for the impression only we have to add the waiting time of 1s 
+
+*Analysis*:-
+there is one if condition is present add the setTimeout with delay of 1s
+
+*Acceptance state*:-
+Check with working example as tracking is fired or not after 1s delay",,Shweta Saindane,,,,6400656b4307e46ad1449cb5,,,,,,,,,0,0,,,,,,,,,,,,,,,,,,,,,,com.atlassian.servicedesk.plugins.approvals.internal.customfield.ApprovalsCFValue@37cbae8a,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,25/Oct/24 12:00 AM,,,Medium,,,,,,,,No,"Refer this [document|https://ct-tech.atlassian.net/wiki/spaces/engineering/pages/261750958/How+to+debug+the+CI+Pipeline+Issues] for debugging your issue.
+
+Still facing issues? Describe the issue.
+
+What did you expect to happen?
+
+Reason for failure (if possible).
+
+How can we reproduce it (as minimally and precisely as possible)?
+
+Attach the actual log statement and supporting links.
+
+What did you do to resolve the issue?",,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,0.0,,,1|i0ezid:,,,,,,,,,0.0,0.0,,,,,,,,,,Sprint 129,,,,,2.0,,,,,,,,,,,,,,,,,,,,,,,,,,3_*:*_2_*:*_203342426_*|*_10042_*:*_1_*:*_3579_*|*_10041_*:*_1_*:*_139700853_*|*_10000_*:*_1_*:*_860199980_*|*_10032_*:*_1_*:*_4936_*|*_10001_*:*_1_*:*_0,,,,,,,,,,,,,,,,245275,FE-16,Product,Done,28/Oct/24 10:10 AM
