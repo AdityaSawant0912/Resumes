@@ -49,7 +49,6 @@ function embedFonts(html) {
           modifiedHtml = modifiedHtml.replace(pattern, `url('${dataUrl}')`);
         });
 
-        console.log(`   ✓ Embedded font: ${file}`);
       }
     });
 
@@ -66,10 +65,8 @@ async function getResumeHTML() {
     const { render } = await import('./jsonresume-theme-professional/dist/index.js');
     const resumeData = JSON.parse(readFileSync('./resume.json', 'utf-8'));
     
-    console.log('🔨 Rendering HTML...');
     let html = render(resumeData);
     
-    console.log('🔤 Embedding fonts...');
     html = embedFonts(html);
     
     return html;
@@ -87,5 +84,5 @@ const server = createServer(async (req, res) => {
 });
 
 server.listen(PORT, () => {
-  console.log(`🚀 Resume server running at http://localhost:${PORT}`);
+  console.log(`🚀 Resume server running at Port: ${PORT}`);
 });
