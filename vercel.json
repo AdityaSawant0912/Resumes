@@ -11,5 +11,14 @@
       "src": "/.*",
       "dest": "index.js"
     }
-  ]
+  ],
+  "functions": {
+    "index.js": {
+      "includeFiles": [
+        "jsonresume-theme-professional/**",
+        "fonts/**",
+        "resume.json"
+      ]
+    }
+  }
 }
