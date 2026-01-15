@@ -1,0 +1,179 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "professional",
+    "lastModified": "2026-01-14T13:54:00"
+  },
+  "basics": {
+    "name": "Aditya Rajesh Sawant",
+    "label": "Software Development Engineer",
+    "email": "asawant5@buffalo.edu",
+    "phone": "+1 (716)-533-6533",
+    "url": "",
+    "summary": "",
+    "location": {
+      "address": "",
+      "postalCode": "",
+      "city": "Buffalo",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "adityasawant09",
+        "url": "https://www.linkedin.com/in/adityasawant09/"
+      },
+      {
+        "network": "GitHub",
+        "username": "AdityaSawant0912",
+        "url": "https://github.com/AdityaSawant0912"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "CarWale [CarTrade Tech]",
+      "position": "Software Development Engineer - I",
+      "startDate": "2025-04-01",
+      "endDate": "2025-06-30",
+      "location": "Mumbai, India",
+      "highlights": [
+        "Engineered and maintained the 'Oxygen Design System', a core library of 70+ reusable components in React and React Native that directly supported 80 million monthly users while utilizing Redux, Jest, Grafana, and Agile methodologies.",
+        "Drove web performance optimization initiatives, achieving a 10% reduction in bundle size on critical pages by architecting and introducing a new counter-based hashing system.",
+        "Led the architectural design and implementation of a dark theme for 60+ React Native components, using React Context and custom hooks to achieve seamless, no-reload theme switching.",
+        "Accelerated project delivery by 85% by leveraging AI-driven automation and prompt engineering to update over 250 files in two days, beating a two-week estimate."
+      ]
+    },
+    {
+      "name": "CarWale [CarTrade Tech]",
+      "position": "Associate Software Development Engineer",
+      "startDate": "2024-08-01",
+      "endDate": "2025-04-30",
+      "location": "Mumbai, India",
+      "highlights": [
+        "Streamlined component architecture by replacing over 500 unnecessary div wrappers with a custom React hook, significantly improving web performance, reducing memory consumption, and enabling faster JavaScript execution.",
+        "Created interactive templates for all platforms of CarWale and CarTrade application, ensuring cross-platform compatibility and achieving 5 million plus impressions over 2 weeks."
+      ]
+    },
+    {
+      "name": "Indian Development Foundation (NGO)",
+      "position": "Software Development Intern",
+      "startDate": "2023-10-01",
+      "endDate": "2024-04-30",
+      "location": "Mumbai, India",
+      "highlights": [
+        "Engineered a full-stack web application using Next.js, React, MySQL, and NextAuth to streamline and manage the 'Balgurukul' operations.",
+        "Engineered and implemented an automated grading system and role-based logins, which together improved overall efficiency by 80%.",
+        "Achieved an almost 90% reduction in grading time for over 50 students by designing an intuitive user interface that streamlined administrative workflows."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "State University of New York at Buffalo",
+      "url": "",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2025-08-01",
+      "endDate": "2026-12-31",
+      "score": "3.83 GPA",
+      "courses": []
+    },
+    {
+      "institution": "University of Mumbai",
+      "url": "",
+      "area": "Computer Engineering",
+      "studyType": "Bachelor of Engineering",
+      "startDate": "2020-08-01",
+      "endDate": "2024-06-30",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "projects": [
+    {
+      "name": "Beacon",
+      "description": "Real-time location-sharing application with granular permission controls",
+      "highlights": [
+        "Engineered a real-time location-sharing application that provides users with granular control over their live location access.",
+        "Designed and implemented a comprehensive permission management system to handle 4 distinct relationship states, providing users with granular control over who can view their live location.",
+        "Developed a unified Native Bridge communication layer, enabling the React Native UI to seamlessly send commands and receive diagnostics from native mobile modules for tasks like background service control.",
+        "Architected and developed a web-based mobile application to replace a complete native solution, leveraging React Native's bridge to gain access to critical native features while accelerating development cycles and facilitating faster, more frequent updates."
+      ],
+      "keywords": [
+        "NextJs",
+        "React",
+        "React Native",
+        "MongoDB",
+        "Google Maps"
+      ],
+      "startDate": "2025-06-01",
+      "endDate": "",
+      "url": "",
+      "roles": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "JavaScript",
+        "Python",
+        "C#",
+        "TypeScript",
+        "Java",
+        "HTML/CSS"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "ReactJs",
+        "NodeJs",
+        ".NET",
+        "NextJs",
+        "Flask"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": [
+        "MySQL",
+        "NoSQL"
+      ]
+    },
+    {
+      "name": "Tools & Platform",
+      "level": "",
+      "keywords": [
+        "Git",
+        "Docker",
+        "Google Cloud Platform",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "name": "System Design",
+      "level": "",
+      "keywords": [
+        "Scalable architecture",
+        "Microservices",
+        "RESTful APIs",
+        "Event-Driven Architecture"
+      ]
+    },
+    {
+      "name": "Other",
+      "level": "",
+      "keywords": [
+        "Agile Methodologies",
+        "Unit Testing",
+        "Cross-Platform Development"
+      ]
+    }
+  ]
+}

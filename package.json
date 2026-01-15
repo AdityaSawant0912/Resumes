@@ -1,0 +1,33 @@
+{
+  "name": "resumes",
+  "version": "1.0.0",
+  "description": "Resume of Aditya Sawant",
+  "homepage": "https://github.com/AdityaSawant0912/Resumes#readme",
+  "bugs": {
+    "url": "https://github.com/AdityaSawant0912/Resumes/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdityaSawant0912/Resumes.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "resumed --theme ../../../jsonresume-theme-professional",
+    "export": "node export.js",
+    "serve": "node index.js"
+  },
+  "dependencies": {
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-icons": "^5.5.0",
+    "resume-cli": "^3.0.8",
+    "resumed": "^3.0.0",
+    "styled-components": "^6.3.6"
+  },
+  "devDependencies": {
+    "babel-plugin-add-import-extension": "^1.6.0"
+  }
+}
