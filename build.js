@@ -59,7 +59,7 @@ async function build() {
   try {
     console.log('🔨 Building resume...');
     
-    const { render } = await import('./jsonresume-theme-professional/dist/index.js');
+    const { render } = await import('./lib/theme/index.js');
     const resumeData = JSON.parse(readFileSync('./resume.json', 'utf-8'));
     
     console.log('📄 Rendering HTML...');
