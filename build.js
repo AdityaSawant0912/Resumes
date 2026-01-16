@@ -67,7 +67,6 @@ async function build() {
     
     console.log('🔤 Embedding fonts...');
     html = embedFonts(html);
-    
     writeFileSync('public/index.html', html);
     console.log('✅ Resume built to public/index.html');
   } catch (error) {

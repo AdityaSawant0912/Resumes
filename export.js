@@ -72,7 +72,7 @@ async function generateResume() {
     html = embedFonts(html);
 
     // Save HTML with embedded fonts
-    writeFileSync(OUTPUT_HTML, html);
+    // writeFileSync(OUTPUT_HTML, html);
 
     
     // Launch puppeteer

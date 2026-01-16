@@ -18,7 +18,8 @@
     "start": "resumed --theme ../../../jsonresume-theme-professional",
     "export": "node export.js",
     "serve": "node index.js",
-    "build": "node build.js"
+    "build": "node build.js",
+    "copy-theme": "node copy-theme.js"
   },
   "dependencies": {
     "react": "^19.2.3",
