@@ -77,7 +77,7 @@ const HeroComponent = ({ basics }) => {
           {url && (
             <Info>
               <FaLink />
-              <a href="{url}">{url}</a>
+              <a href={url}>{url}</a>
             </Info>
           )}
           {linkedin && (
