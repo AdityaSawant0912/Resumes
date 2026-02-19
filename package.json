@@ -15,8 +15,8 @@
   "type": "module",
   "main": "index.js",
   "scripts": {
-    "build": "resumed --theme ../../../jsonresume-theme-professional",
-    "export": "node index.js",
+    "deprecated": "resumed --theme ../../../jsonresume-theme-professional",
+    "build": "node index.js",
     "pdf": "node export.js",
     "html": "node build.js",
     "copy-theme": "node copy-theme.js"
