@@ -37,10 +37,12 @@
       "name": "Safety Knights (CSE 611)",
       "position": "Software Development Intern",
       "startDate": "2026-01-17",
+      "endDate": "2026-07-14",
       "location": "Buffalo, NY",
       "highlights": [
-        "Designing and developing a full-stack job board platform with role-based access control, supporting admin job management, public job discovery with filtering, and a structured candidate application pipeline including resume storage and status tracking.",
-        "Building an MVP application management system enabling admins to filter candidates by location, experience, and certifications, with email notifications, duplicate detection, and scalable architecture designed for future ATS integration and map-based job discovery."
+        "Shipped a production MEAN stack job board for the EHS industry across 3 codebases: Express/Node.js backend with 75+ REST endpoints and AES-256 request encryption, Angular v17 SSR consumer app, and standalone Angular admin console deployed to prod.",
+        "Designed 4 Mongoose models (compound, geospatial, full-text indexes); implemented multi-axis job search, lifecycle management, and automated hourly expiration via node-cron.",
+        "Built end-to-end candidate application pipeline with GridFS résumé/document storage, 5-status tracking, and 3 automated Mailtrap email flows; added admin console with candidate filtering by location/experience/certifications and a daily cron-triggered expiry digest for admins."
       ]
     },
     {
@@ -65,8 +67,7 @@
       "location": "Mumbai, India",
       "highlights": [
         "Engineered a full-stack web application using Next.js, React, MySQL, and NextAuth to streamline and manage the 'Balgurukul' operations.",
-        "Implemented an automated grading system and role-based logins, which together improved overall efficiency by 80%.",
-        "Achieved an almost 90% reduction in grading time for over 50 students by designing an intuitive user interface that streamlined administrative workflows."
+        "Reduced grading time by 90% for 50+ students by building an automated grading system with role-based logins and an intuitive admin UI."
       ]
     }
   ],
