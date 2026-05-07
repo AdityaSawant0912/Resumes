@@ -37,7 +37,7 @@
       "name": "Safety Knights (CSE 611)",
       "position": "Software Development Intern",
       "startDate": "2026-01-17",
-      "endDate": "2026-07-14",
+      "endDate": "2026-07-5",
       "location": "Buffalo, NY",
       "highlights": [
         "Shipped a production MEAN stack job board for the EHS industry across 3 codebases: Express/Node.js backend with 75+ REST endpoints and AES-256 request encryption, Angular v17 SSR consumer app, and standalone Angular admin console deployed to prod.",
