@@ -16,8 +16,8 @@
   "main": "index.js",
   "scripts": {
     "deprecated": "resumed --theme ../../../jsonresume-theme-professional",
-    "build": "",
-    "export": "node index.js",
+    "build": "npm run pdf && npm run html",
+    "export": "",
     "pdf": "node export.js",
     "html": "node build.js",
     "copy-theme": "node copy-theme.js"
