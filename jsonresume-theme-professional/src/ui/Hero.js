@@ -83,7 +83,7 @@ const HeroComponent = ({ basics }) => {
           {linkedin && (
             <Info>
               <FaLinkedin />
-              <a href={`https://linkedin.com/${linkedin.username}`}>
+              <a href={`https://linkedin.com/in/${linkedin.username}`}>
                 {linkedin.username}
               </a>
             </Info>

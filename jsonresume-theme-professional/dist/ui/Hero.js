@@ -57,7 +57,7 @@ const HeroComponent = ({
   }, /*#__PURE__*/React.createElement(BasicInfo, null, location && /*#__PURE__*/React.createElement(Info, null, /*#__PURE__*/React.createElement(FaMapPin, null), location.city, ", ", location.countryCode), email && /*#__PURE__*/React.createElement(Info, null, /*#__PURE__*/React.createElement(FaEnvelope, null), email), phone && /*#__PURE__*/React.createElement(Info, null, /*#__PURE__*/React.createElement(FaPhoneAlt, null), phone), url && /*#__PURE__*/React.createElement(Info, null, /*#__PURE__*/React.createElement(FaLink, null), /*#__PURE__*/React.createElement("a", {
     href: url
   }, url)), linkedin && /*#__PURE__*/React.createElement(Info, null, /*#__PURE__*/React.createElement(FaLinkedin, null), /*#__PURE__*/React.createElement("a", {
-    href: `https://linkedin.com/${linkedin.username}`
+    href: `https://linkedin.com/in/${linkedin.username}`
   }, linkedin.username)), github && /*#__PURE__*/React.createElement(Info, null, /*#__PURE__*/React.createElement(FaGithub, null), /*#__PURE__*/React.createElement("a", {
     href: `https://github.com/${github.username}`
   }, github.username)), twitter && /*#__PURE__*/React.createElement(Info, null, /*#__PURE__*/React.createElement(FaTwitter, null), /*#__PURE__*/React.createElement("a", {

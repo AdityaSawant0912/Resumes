@@ -120,6 +120,22 @@ export const render = resume => {
 
 
   </style>
-  ${styles}</head><body>${html}</body></html>`;
+  ${styles}</head><body>${html}<script>
+    (function() {
+      var pdfName = "${resume.basics.name}.pdf";
+      window.addEventListener('keydown', function(e) {
+        if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+          e.preventDefault();
+          e.stopPropagation();
+          var a = document.createElement('a');
+          a.href = './' + pdfName;
+          a.download = pdfName;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
+        }
+      }, true);
+    })();
+  </script></body></html>`;
 };
 export { Resume };

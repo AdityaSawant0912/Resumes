@@ -34,15 +34,26 @@
   },
   "work": [
     {
-      "name": "Safety Knights (CSE 611)",
+      "name": "Channel Core",
+      "position": "Software Development Intern",
+      "startDate": "2026-05-15",
+      "endDate": "2026-08-14",
+      "location": "Irvine, CA",
+      "highlights": [
+        "Integrating 6 social platforms (Instagram, YouTube, TikTok, LinkedIn, Snapchat, X) via OAuth & building automatic token refresh and credential rotation syncing 500+ records daily with 0 data loss",
+        "Building production infrastructure serving 150+ creators — architecting separate dev/prod environments on Neon with automated S3 backups and branch protection, eliminating risk of dev changes affecting live users"
+      ]
+    },
+    {
+      "name": "Safety Knights",
       "position": "Software Development Intern",
       "startDate": "2026-01-17",
-      "endDate": "2026-07-5",
+      "endDate": "2026-05-05",
       "location": "Buffalo, NY",
       "highlights": [
-        "Shipped a production MEAN stack job board for the EHS industry across 3 codebases: Express/Node.js backend with 75+ REST endpoints and AES-256 request encryption, Angular v17 SSR consumer app, and standalone Angular admin console deployed to prod.",
-        "Designed 4 Mongoose models (compound, geospatial, full-text indexes); implemented multi-axis job search, lifecycle management, and automated hourly expiration via node-cron.",
-        "Built end-to-end candidate application pipeline with GridFS résumé/document storage, 5-status tracking, and 3 automated Mailtrap email flows; added admin console with candidate filtering by location/experience/certifications and a daily cron-triggered expiry digest for admins."
+        "Architected and shipped a production EHS job board currently in beta with 4,000 users, spanning an Express/Node.js API (75+ endpoints, AES-256 encryption), an Angular v17 SSR consumer app, and a standalone admin console across 3 independently deployable codebases.",
+        "Designed the data layer with 4 Mongoose models using compound, geospatial, and full-text indexes; built multi-axis job search and automated hourly listing expiration via node-cron to keep job data fresh without manual intervention.",
+        "Built a full candidate pipeline — GridFS document storage, 5-stage status tracking, and 3 automated email flows — with an admin console supporting location/experience/certification filtering and a daily digest for expiring listings."
       ]
     },
     {
@@ -58,17 +69,6 @@
         "Accelerated project delivery by 85% by leveraging AI-driven automation and prompt engineering to update over 250 files in two days, beating a two-week estimate.",
         "Created interactive templates for all platforms of CarWale and CarTrade application, ensuring cross-platform compatibility and achieving 5 million plus impressions over 2 weeks."
       ]
-    },
-    {
-      "name": "Indian Development Foundation (NGO)",
-      "position": "Software Development Intern",
-      "startDate": "2023-10-02",
-      "endDate": "2024-04-30",
-      "location": "Mumbai, India",
-      "highlights": [
-        "Engineered a full-stack web application using Next.js, React, MySQL, and NextAuth to streamline and manage the 'Balgurukul' operations.",
-        "Reduced grading time by 90% for 50+ students by building an automated grading system with role-based logins and an intuitive admin UI."
-      ]
     }
   ],
   "education": [
@@ -79,7 +79,7 @@
       "studyType": "Master of Science",
       "startDate": "2025-08-25",
       "endDate": "2026-12-31",
-      "score": "3.83 GPA"
+      "score": "3.83/4 GPA"
     },
     {
       "institution": "University of Mumbai",
@@ -88,7 +88,7 @@
       "studyType": "Bachelor of Engineering",
       "startDate": "2020-08-02",
       "endDate": "2024-06-30",
-      "score": "8.63 CGPA"
+      "score": "8.63/10 CGPA"
     }
   ],
   "projects": [
@@ -142,7 +142,9 @@
       "level": "",
       "keywords": [
         "MySQL",
-        "NoSQL"
+        "Postgres",
+        "Sqlite3",
+        "MongoDB"
       ]
     },
     {
@@ -151,8 +153,10 @@
       "keywords": [
         "Git",
         "Docker",
+        "Jest",
         "Google Cloud Platform",
-        "Amazon Web Services"
+        "Amazon Web Services",
+        "Oracle OpenShift"
       ]
     },
     {

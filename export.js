@@ -10,7 +10,7 @@ const __dirname = dirname(__filename);
 const RESUME_JSON_PATH = './resume.json';
 const FONTS_DIR = join(__dirname, 'fonts');
 const OUTPUT_HTML = './resume.html';
-const OUTPUT_PDF = './Aditya Rajesh Sawant.pdf';
+const OUTPUT_PDF = './public/Aditya Rajesh Sawant.pdf';
 
 // Get font MIME type based on extension
 function getFontMimeType(ext) {
@@ -99,6 +99,7 @@ async function generateResume() {
     await page.pdf({
       path: OUTPUT_PDF,
       format: 'A4',
+      pageRanges: '1-1',
       printBackground: true,
       margin: {
         top: '0',
