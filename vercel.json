@@ -1,4 +1,7 @@
 {
   "buildCommand": "npm run export",
-  "outputDirectory": "public"
+  "outputDirectory": "public",
+  "rewrites": [
+    { "source": "/pdf", "destination": "/Aditya%20Rajesh%20Sawant.pdf" }
+  ]
 }
