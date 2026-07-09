@@ -171,7 +171,8 @@
         "AWS",
         "GCP",
         "Git",
-        "OpenShift"
+        "OpenShift",
+        "GitHub Actions"
       ]
     }
   ]

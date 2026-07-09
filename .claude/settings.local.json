@@ -15,7 +15,8 @@
       "Bash(python -c \"import json;json.load\\(open\\('R:/Resumes/resume.json'\\)\\);print\\('valid'\\)\")",
       "Bash(bro r *)",
       "Bash(git add *)",
-      "Bash(git commit -m ' *)"
+      "Bash(git commit -m ' *)",
+      "Bash(git push *)"
     ]
   }
 }
