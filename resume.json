@@ -40,18 +40,18 @@
       "endDate": "2026-08-14",
       "location": "Irvine, CA",
       "highlights": [
-        "Integrating 6 social platforms (Instagram, YouTube, TikTok, LinkedIn, Snapchat, X) via OAuth & building automatic token refresh and credential rotation syncing 500+ records daily with 0 data loss",
+        "Integrating 6 social platforms (Instagram, YouTube, TikTok, LinkedIn, Snapchat, X) via OAuth & building automatic token refresh and credential rotation with retry-backed sync recovery, keeping 500+ records synced daily",
         "Building production infrastructure serving 150+ creators — architecting separate dev/prod environments on Neon with automated S3 backups and branch protection, eliminating risk of dev changes affecting live users"
       ]
     },
     {
       "name": "SUNY Research Foundation — CUBS Lab (Prof. Srirangaraj Setlur)",
-      "position": "Research Assistant",
+      "position": "Research Assistant (Part-Time)",
       "startDate": "2026-02-20",
       "location": "Buffalo, NY",
       "highlights": [
-        "Built an async grant-aggregation pipeline (Python/asyncio, 8.5K+ LOC) scraping NIH, grants.gov, and PCORI via 3 pluggable parsers, streaming through 10 concurrent workers with bounded back-pressure queues.",
         "Engineered LLM-based extraction (strict JSON schemas) that chunks 90-140K character grant pages into 4 targeted tasks, recovering funding fields missed on 100% of pages by single-call extraction.",
+        "Built an async grant-aggregation pipeline (Python/asyncio) scraping NIH, grants.gov, and PCORI via 3 pluggable parsers, streaming through 10 concurrent workers with bounded back-pressure queues.",
         "Ensured zero-data-loss reliability via failure-only persistence, a replayable retry mode, and 3-attempt exponential backoff across scrape/LLM/DB stages, upserting into an 8-table MySQL schema deduped by external ID."
       ]
     },
@@ -74,7 +74,7 @@
       "location": "Mumbai, India",
       "highlights": [
         "Engineered and maintained the 'Oxygen Design System', a core library of 70+ reusable components in React and React Native that directly supported 80 million monthly users, achieving a 10% bundle-size reduction on critical pages via a new counter-based hashing system.",
-        "Accelerated project delivery by 85% by leveraging AI-driven automation and prompt engineering to update over 250 files in two days, beating a two-week estimate."
+        "Cut a two-week estimate to 2 days (5x faster) by leveraging AI-driven automation and prompt engineering to update 250+ files."
       ]
     }
   ],
@@ -139,64 +139,39 @@
       "level": "",
       "keywords": [
         "JavaScript",
-        "Python",
-        "Rust",
-        "C#",
         "TypeScript",
-        "Java",
-        "HTML/CSS"
+        "Python",
+        "Rust"
       ]
     },
     {
       "name": "Frameworks",
       "level": "",
       "keywords": [
-        "ReactJs",
-        "NodeJs",
-        "NextJs",
-        "Angular",
-        ".NET",
-        "Flask",
-        "Redux"
+        "React",
+        "Node.js",
+        "Next.js",
+        "Angular"
       ]
     },
     {
       "name": "Databases",
       "level": "",
       "keywords": [
-        "MySQL",
-        "Postgres",
-        "Sqlite3",
-        "MongoDB"
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL"
       ]
     },
     {
-      "name": "Tools & Platform",
+      "name": "Infra/Tools",
       "level": "",
       "keywords": [
-        "Git",
         "Docker",
-        "Playwright",
-        "Jest",
-        "Grafana",
-        "GCP",
         "AWS",
-        "Oracle OpenShift",
-        "OpenAI"
-      ]
-    },
-    {
-      "name": "System Design",
-      "level": "",
-      "keywords": [
-        "Scalable Architecture",
-        "Microservices",
-        "RESTful APIs",
-        "Event-Driven Architecture",
-        "Agile Methodologies",
-        "Unit Testing",
-        "Cross-Platform Development",
-        "Prompt Engineering"
+        "GCP",
+        "Git",
+        "OpenShift"
       ]
     }
   ]
