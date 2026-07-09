@@ -45,6 +45,17 @@
       ]
     },
     {
+      "name": "SUNY Research Foundation — CUBS Lab (Prof. Srirangaraj Setlur)",
+      "position": "Research Assistant",
+      "startDate": "2026-02-20",
+      "location": "Buffalo, NY",
+      "highlights": [
+        "Built an async grant-aggregation pipeline (Python/asyncio, 8.5K+ LOC) scraping NIH, grants.gov, and PCORI via 3 pluggable parsers, streaming through 10 concurrent workers with bounded back-pressure queues.",
+        "Engineered LLM-based extraction (strict JSON schemas) that chunks 90-140K character grant pages into 4 targeted tasks, recovering funding fields missed on 100% of pages by single-call extraction.",
+        "Ensured zero-data-loss reliability via failure-only persistence, a replayable retry mode, and 3-attempt exponential backoff across scrape/LLM/DB stages, upserting into an 8-table MySQL schema deduped by external ID."
+      ]
+    },
+    {
       "name": "Safety Knights",
       "position": "Software Development Intern",
       "startDate": "2026-01-17",
@@ -52,8 +63,7 @@
       "location": "Buffalo, NY",
       "highlights": [
         "Architected and shipped a production EHS job board currently in beta with 4,000 users, spanning an Express/Node.js API (75+ endpoints, AES-256 encryption), an Angular v17 SSR consumer app, and a standalone admin console across 3 independently deployable codebases.",
-        "Designed the data layer with 4 Mongoose models using compound, geospatial, and full-text indexes; built multi-axis job search and automated hourly listing expiration via node-cron to keep job data fresh without manual intervention.",
-        "Built a full candidate pipeline — GridFS document storage, 5-stage status tracking, and 3 automated email flows — with an admin console supporting location/experience/certification filtering and a daily digest for expiring listings."
+        "Built a full candidate pipeline with GridFS document storage, 5-stage status tracking, and 3 automated email flows, plus multi-axis job search and automated hourly listing expiration."
       ]
     },
     {
@@ -63,11 +73,8 @@
       "endDate": "2025-06-30",
       "location": "Mumbai, India",
       "highlights": [
-        "Engineered and maintained the 'Oxygen Design System', a core library of 70+ reusable components in React and React Native that directly supported 80 million monthly users while utilizing Redux, Jest, Grafana, and Agile methodologies.",
-        "Drove web performance optimization initiatives, achieving a 10% reduction in bundle size on critical pages by architecting and introducing a new counter-based hashing system.",
-        "Led the architectural design and implementation of a dark theme for 60+ React Native components, using React Context and custom hooks to achieve seamless, no-reload theme switching.",
-        "Accelerated project delivery by 85% by leveraging AI-driven automation and prompt engineering to update over 250 files in two days, beating a two-week estimate.",
-        "Created interactive templates for all platforms of CarWale and CarTrade application, ensuring cross-platform compatibility and achieving 5 million plus impressions over 2 weeks."
+        "Engineered and maintained the 'Oxygen Design System', a core library of 70+ reusable components in React and React Native that directly supported 80 million monthly users, achieving a 10% bundle-size reduction on critical pages via a new counter-based hashing system.",
+        "Accelerated project delivery by 85% by leveraging AI-driven automation and prompt engineering to update over 250 files in two days, beating a two-week estimate."
       ]
     }
   ],
@@ -93,12 +100,26 @@
   ],
   "projects": [
     {
+      "name": "bro-cli",
+      "description": "Cross-shell CLI alias manager preserving shell state (cd, env activation) across invocations",
+      "url": "https://bro.adityasawant.dev",
+      "highlights": [
+        "Built single-binary Rust CLI (bash/zsh/fish/PowerShell/cmd) that emits shell code for the wrapper to eval, letting stored aliases mutate the live shell — cd, export, venv activation persist across runs."
+      ],
+      "keywords": [
+        "Rust",
+        "CLI",
+        "Shell Scripting"
+      ],
+      "startDate": "2026-06-19",
+      "endDate": "2026-07-07",
+      "roles": []
+    },
+    {
       "name": "Beacon",
       "description": "Real-time location-sharing application with granular permission controls",
       "highlights": [
-        "Designed and implemented a comprehensive permission management system to handle 4 distinct relationship states, providing users with granular control over who can view their live location.",
-        "Engineered a Unified Native-Web Bridge to facilitate bi-directional communication between a WebView-based UI and native mobile modules, enabling web-based commands to control critical background services and retrieve real-time system diagnostics.",
-        "Architected and developed a web-based mobile application to replace a complete native solution, leveraging React Native's bridge to gain access to critical native features while accelerating development cycles and facilitating faster, more frequent updates."
+        "Engineered a Unified Native-Web Bridge enabling a WebView-based UI to control native background services and retrieve real-time diagnostics, replacing a fully native solution with a web-based app for faster iteration."
       ],
       "keywords": [
         "NextJs",
@@ -119,6 +140,7 @@
       "keywords": [
         "JavaScript",
         "Python",
+        "Rust",
         "C#",
         "TypeScript",
         "Java",
@@ -134,7 +156,8 @@
         "NextJs",
         "Angular",
         ".NET",
-        "Flask"
+        "Flask",
+        "Redux"
       ]
     },
     {
@@ -153,29 +176,27 @@
       "keywords": [
         "Git",
         "Docker",
+        "Playwright",
         "Jest",
+        "Grafana",
         "GCP",
         "AWS",
-        "Oracle OpenShift"
+        "Oracle OpenShift",
+        "OpenAI"
       ]
     },
     {
       "name": "System Design",
       "level": "",
       "keywords": [
-        "Scalable architecture",
+        "Scalable Architecture",
         "Microservices",
         "RESTful APIs",
-        "Event-Driven Architecture"
-      ]
-    },
-    {
-      "name": "Other",
-      "level": "",
-      "keywords": [
+        "Event-Driven Architecture",
         "Agile Methodologies",
         "Unit Testing",
-        "Cross-Platform Development"
+        "Cross-Platform Development",
+        "Prompt Engineering"
       ]
     }
   ]

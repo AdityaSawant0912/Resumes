@@ -2,7 +2,20 @@
   "permissions": {
     "allow": [
       "Bash(npm run *)",
-      "Bash(node export.js)"
+      "Bash(node export.js)",
+      "Read(//c/Users/arsaw/.claude/projects/R--bro-cli/**)",
+      "Read(//c/Users/arsaw/.claude/projects/**)",
+      "Read(//r//**)",
+      "Bash(find /r -maxdepth 1)",
+      "Bash(git -C /r/bro-cli log --oneline --reverse)",
+      "Bash(git -C /r/bro-cli log -1 --format=%cd --date=short)",
+      "Bash(git -C /r/bro-cli log --reverse --format=%cd --date=short)",
+      "Bash(git -C /r/bro-cli log --format=%cd --date=short)",
+      "Bash(node -e \"JSON.parse\\(require\\('fs'\\).readFileSync\\('R:/Resumes/resume.json','utf8'\\)\\); console.log\\('valid'\\)\")",
+      "Bash(python -c \"import json;json.load\\(open\\('R:/Resumes/resume.json'\\)\\);print\\('valid'\\)\")",
+      "Bash(bro r *)",
+      "Bash(git add *)",
+      "Bash(git commit -m ' *)"
     ]
   }
 }
