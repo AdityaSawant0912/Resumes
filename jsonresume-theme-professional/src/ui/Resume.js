@@ -18,6 +18,15 @@ const Layout = styled.div`
   margin: 0 auto;
   line-height: 13.4688px;
   margin-bottom: 40px;
+
+  /* Chrome's PDF renderer substitutes "ff"/"fi" pairs with single ligature
+     glyphs (e.g. U+FB00 ﬀ). Some ATS text extractors don't decompose these
+     back to plain characters, breaking keyword matching (e.g. "Buffalo"). */
+  *, *::before, *::after {
+    font-variant-ligatures: none;
+    -webkit-font-feature-settings: "liga" 0, "clig" 0;
+    font-feature-settings: "liga" 0, "clig" 0;
+  }
 `;
 
 const Resume = ({ resume }) => {
