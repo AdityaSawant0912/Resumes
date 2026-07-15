@@ -13,7 +13,7 @@ import Interests from "./Interests.js";
 import Languages from "./Languages.js";
 import References from "./References.js";
 const Layout = styled.div`
-  max-width: 660px;
+  max-width: 740px;
   margin: 0 auto;
   line-height: 13.4688px;
   margin-bottom: 40px;
@@ -34,8 +34,6 @@ const Resume = ({
     basics: resume.basics
   }), /*#__PURE__*/React.createElement(Summary, {
     basics: resume.basics
-  }), /*#__PURE__*/React.createElement(Education, {
-    education: resume.education
   }), /*#__PURE__*/React.createElement(Work, {
     work: resume.work
   }), /*#__PURE__*/React.createElement(Projects, {
@@ -52,6 +50,8 @@ const Resume = ({
     skills: resume.skills
   }), /*#__PURE__*/React.createElement(Interests, {
     interests: resume.interests
+  }), /*#__PURE__*/React.createElement(Education, {
+    education: resume.education
   }), /*#__PURE__*/React.createElement(References, {
     references: resume.references
   }));

@@ -15,8 +15,8 @@ export const render = (resume) => {
     @page {
       margin-top: 0.2in;
       margin-bottom: 0.2in;
-      margin-left: 0.5in;
-      margin-right: 0.5in;
+      margin-left: 0.25in;
+      margin-right: 0.25in;
     }
 
     /* Optional: Ensure body and html elements have no extra margins/padding */
@@ -79,7 +79,7 @@ export const render = (resume) => {
     html {
       font-family:LatinModern, "Courier New", monospace;
       background: #fff;
-      font-size: 10px;
+      font-size: 9px;
     }
 
     h2 {

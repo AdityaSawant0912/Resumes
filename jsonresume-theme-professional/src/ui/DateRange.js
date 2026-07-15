@@ -5,7 +5,7 @@ import Date from './Date';
 const Range = styled.div`
   display: flex;
   font-style: italic;
-  font-size: 13px;
+  font-size: 12px;
 `;
 
 const DateRange = ({ startDate, endDate }) => {

@@ -18,7 +18,12 @@
       "Bash(git commit -m ' *)",
       "Bash(git push *)",
       "Bash(python *)",
-      "Bash(pip install *)"
+      "Bash(pip install *)",
+      "Bash(curl *)",
+      "Bash(node copy-theme.js)",
+      "Bash(node build.js)",
+      "Bash(python3 *)",
+      "Bash(node *)"
     ]
   }
 }

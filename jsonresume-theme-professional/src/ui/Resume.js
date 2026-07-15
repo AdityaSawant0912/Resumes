@@ -14,7 +14,7 @@ import Languages from './Languages';
 import References from './References';
 
 const Layout = styled.div`
-  max-width: 660px;
+  max-width: 740px;
   margin: 0 auto;
   line-height: 13.4688px;
   margin-bottom: 40px;
@@ -34,7 +34,6 @@ const Resume = ({ resume }) => {
     <Layout>
       <Hero basics={resume.basics} />
       <Summary basics={resume.basics} />
-      <Education education={resume.education} />
       <Work work={resume.work} />
       <Projects projects={resume.projects} />
       <Certificates certificates={resume.certificates} />
@@ -43,6 +42,7 @@ const Resume = ({ resume }) => {
       <Languages languages={resume.languages} />
       <Skills skills={resume.skills} />
       <Interests interests={resume.interests} />
+      <Education education={resume.education} />
       <References references={resume.references} />
     </Layout>
   );
