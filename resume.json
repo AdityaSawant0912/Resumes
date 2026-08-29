@@ -104,6 +104,24 @@
   ],
   "projects": [
     {
+      "name": "Optimus",
+      "description": "Zero-dependency TypeScript feature flag engine with React, Angular & SSR adapters",
+      "url": "https://optimus.adityasawant.dev",
+      "highlights": [
+        "Designed a unified evaluation engine collapsing boolean, variant, and config flags into one core path, with deterministic id:flag:seed bucketing for consistent assignment across servers",
+        "Built SSR support via single-evaluation snapshot hydration and published as @useoptimus/core (npm), with zero-dep architecture supporting Worker, Node, and browser runtimes"
+      ],
+      "keywords": [
+        "Systems Design",
+        "TypeScript",
+        "ReactJS",
+        "AngularJS",
+        "NodeJS"
+      ],
+      "startDate": "2026-08-28",
+      "roles": []
+    },
+    {
       "name": "bro-cli",
       "description": "Cross-shell CLI alias manager preserving shell state (cd, env activation) across invocations (github.com/AdityaSawant0912/bro-cli)",
       "url": "https://bro.adityasawant.dev",
@@ -117,24 +135,6 @@
       ],
       "startDate": "2026-06-19",
       "endDate": "2026-07-07",
-      "roles": []
-    },
-    {
-      "name": "Beacon",
-      "description": "Real-time location-sharing application with granular permission controls",
-      "highlights": [
-        "Designed a permission management system handling 4 distinct relationship states, giving users granular control over who can view their live location.",
-        "Engineered a Unified Native-Web Bridge enabling a WebView-based UI to control native background services and retrieve real-time diagnostics, replacing a fully native solution with a web-based app for faster iteration."
-      ],
-      "keywords": [
-        "NextJs",
-        "React",
-        "React Native",
-        "MongoDB",
-        "Google Maps"
-      ],
-      "startDate": "2025-06-02",
-      "endDate": "2025-08-15",
       "roles": []
     }
   ],
