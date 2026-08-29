@@ -3,6 +3,7 @@ import { styled } from 'styled-components';
 import List from './List';
 import DateRange from './DateRange';
 import Date from './Date';
+import LinkIcon from './LinkIcon';
 
 const Meta = styled.div`
   display: flex;
@@ -30,8 +31,18 @@ const Summary = styled.p`
   margin-bottom: 5px;
 `;
 
+const TitleLink = styled.a`
+  color: inherit;
+  text-decoration: none;
+
+  &:hover {
+    text-decoration: underline;
+  }
+`;
+
 const Experience = ({
   title,
+  url,
   date,
   startDate,
   endDate,
@@ -42,7 +53,16 @@ const Experience = ({
   return (
     <Container>
       <Meta>
-        <Title>{title}</Title>
+        <Title>
+          {url ? (
+            <TitleLink href={url} target="_blank" rel="noopener noreferrer">
+              {title}
+              <LinkIcon />
+            </TitleLink>
+          ) : (
+            title
+          )}
+        </Title>
         <div className="secondary">
           {date ? (
             <Date date={date} />

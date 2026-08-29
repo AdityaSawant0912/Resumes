@@ -14,6 +14,7 @@ const Work = ({ projects }) => {
           return (
             <Experience
               title={w.name}
+              url={w.url}
               startDate={w.startDate}
               endDate={w.endDate}
               summary={w.description}

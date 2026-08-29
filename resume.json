@@ -105,7 +105,7 @@
   "projects": [
     {
       "name": "Optimus",
-      "description": "Zero-dependency TypeScript feature flag engine with React, Angular & SSR adapters",
+      "description": "Zero-dependency TypeScript feature flag engine with React, Angular & SSR adapters (github.com/AdityaSawant0912/optimus)",
       "url": "https://optimus.adityasawant.dev",
       "highlights": [
         "Designed a unified evaluation engine collapsing boolean, variant, and config flags into one core path, with deterministic id:flag:seed bucketing for consistent assignment across servers",
