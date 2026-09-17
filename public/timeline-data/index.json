@@ -6,6 +6,6 @@
     "messages": [
       "feat: add resume timeline (per-push snapshots, /timeline, on-demand render)"
     ],
-    "file": "timeline/versions/bf4a3f55.json"
+    "file": "timeline-data/versions/bf4a3f55.json"
   }
 ]

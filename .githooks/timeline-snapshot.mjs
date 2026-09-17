@@ -9,8 +9,8 @@ if (!localSha || localSha === ZERO_SHA) process.exit(0); // branch delete
 
 const repoRoot = execSync('git rev-parse --show-toplevel').toString().trim();
 const resumePath = join(repoRoot, 'resume.json');
-const indexPath = join(repoRoot, 'public', 'timeline', 'index.json');
-const versionsDir = join(repoRoot, 'public', 'timeline', 'versions');
+const indexPath = join(repoRoot, 'public', 'timeline-data', 'index.json');
+const versionsDir = join(repoRoot, 'public', 'timeline-data', 'versions');
 
 const resumeContent = readFileSync(resumePath, 'utf-8');
 
@@ -39,12 +39,12 @@ index.push({
   prevId: lastEntry ? lastEntry.id : null,
   date: new Date().toISOString(),
   messages,
-  file: `timeline/versions/${id}.json`
+  file: `timeline-data/versions/${id}.json`
 });
 writeFileSync(indexPath, JSON.stringify(index, null, 2) + '\n');
 
 execSync(
-  `git add "${join('public', 'timeline', 'index.json')}" "${join('public', 'timeline', 'versions', `${id}.json`)}"`,
+  `git add "${join('public', 'timeline-data', 'index.json')}" "${join('public', 'timeline-data', 'versions', `${id}.json`)}"`,
   { cwd: repoRoot }
 );
 execSync(`git commit -m "chore(timeline): snapshot ${id}"`, { cwd: repoRoot });

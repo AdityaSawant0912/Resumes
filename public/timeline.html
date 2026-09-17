@@ -86,7 +86,7 @@
   <div id="root"><p class="empty">Loading...</p></div>
 
   <script>
-    fetch('/timeline/index.json')
+    fetch('/timeline-data/index.json')
       .then(function (r) { return r.json(); })
       .then(function (entries) {
         var root = document.getElementById('root');

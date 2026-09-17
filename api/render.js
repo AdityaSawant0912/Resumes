@@ -15,7 +15,7 @@ export default async function handler(req, res) {
 
   let snapshot;
   try {
-    const snapshotPath = join(process.cwd(), 'public', 'timeline', 'versions', `${id}.json`);
+    const snapshotPath = join(process.cwd(), 'public', 'timeline-data', 'versions', `${id}.json`);
     snapshot = JSON.parse(readFileSync(snapshotPath, 'utf-8'));
   } catch {
     res.status(404).send('Version not found');
