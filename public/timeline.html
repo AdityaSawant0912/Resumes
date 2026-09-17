@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Resume Timeline</title>
+<style>
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    max-width: 720px;
+    margin: 40px auto;
+    padding: 0 20px;
+    color: #111;
+  }
+  h1 { font-size: 22px; margin-bottom: 4px; }
+  p.sub { color: #666; margin-top: 0; }
+  ol.timeline {
+    list-style: none;
+    margin: 32px 0 0;
+    padding: 0;
+    border-left: 2px solid #ddd;
+  }
+  ol.timeline li {
+    position: relative;
+    padding: 0 0 28px 24px;
+  }
+  ol.timeline li::before {
+    content: "";
+    position: absolute;
+    left: -7px;
+    top: 4px;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: #333;
+  }
+  .date { font-size: 13px; color: #666; }
+  .messages { margin: 4px 0 8px; font-size: 15px; }
+  .messages li { padding: 0; border: none; list-style: disc; margin-left: 18px; }
+  .messages li::before { content: none; }
+  a.view {
+    font-size: 14px;
+    text-decoration: none;
+    color: #06c;
+  }
+  a.view:hover { text-decoration: underline; }
+  .empty, .error { color: #666; }
+</style>
+</head>
+<body>
+  <h1>Resume Timeline</h1>
+  <p class="sub">Every pushed version of the resume, newest first.</p>
+  <div id="root"><p class="empty">Loading...</p></div>
+
+  <script>
+    fetch('/timeline/index.json')
+      .then(function (r) { return r.json(); })
+      .then(function (entries) {
+        var root = document.getElementById('root');
+        if (!entries.length) {
+          root.innerHTML = '<p class="empty">No history yet.</p>';
+          return;
+        }
+        var items = entries.slice().reverse().map(function (entry) {
+          var date = new Date(entry.date).toLocaleString();
+          var messages = (entry.messages || [])
+            .map(function (m) { return '<li>' + escapeHtml(m) + '</li>'; })
+            .join('');
+          return (
+            '<li>' +
+              '<div class="date">' + date + '</div>' +
+              '<ul class="messages">' + messages + '</ul>' +
+              '<a class="view" href="/api/render?id=' + entry.id + '" target="_blank" rel="noopener">View this version &rarr;</a>' +
+            '</li>'
+          );
+        }).join('');
+        root.innerHTML = '<ol class="timeline">' + items + '</ol>';
+      })
+      .catch(function (err) {
+        document.getElementById('root').innerHTML = '<p class="error">Could not load timeline: ' + escapeHtml(err.message) + '</p>';
+      });
+
+    function escapeHtml(s) {
+      var div = document.createElement('div');
+      div.textContent = s;
+      return div.innerHTML;
+    }
+  </script>
+</body>
+</html>

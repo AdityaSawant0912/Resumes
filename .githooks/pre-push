@@ -1,0 +1,5 @@
+#!/bin/sh
+# Snapshots resume.json into the timeline on every push. See timeline-snapshot.mjs.
+while read local_ref local_sha remote_ref remote_sha; do
+  node "$(dirname "$0")/timeline-snapshot.mjs" "$local_sha" "$remote_sha" || exit 1
+done

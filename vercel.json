@@ -2,6 +2,7 @@
   "buildCommand": "npm run export",
   "outputDirectory": "public",
   "rewrites": [
-    { "source": "/pdf", "destination": "/Aditya%20Rajesh%20Sawant.pdf" }
+    { "source": "/pdf", "destination": "/Aditya%20Rajesh%20Sawant.pdf" },
+    { "source": "/timeline", "destination": "/timeline.html" }
   ]
 }
