@@ -7,49 +7,82 @@
 <style>
   body {
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    max-width: 720px;
-    margin: 40px auto;
+    max-width: 640px;
+    margin: 48px auto;
     padding: 0 20px;
-    color: #111;
+    color: #1a1a1a;
   }
-  h1 { font-size: 22px; margin-bottom: 4px; }
-  p.sub { color: #666; margin-top: 0; }
-  ol.timeline {
-    list-style: none;
-    margin: 32px 0 0;
-    padding: 0;
-    border-left: 2px solid #ddd;
+  h1 { font-size: 20px; font-weight: 600; margin-bottom: 4px; }
+  p.sub { color: #888; margin-top: 0; font-size: 14px; }
+  .empty, .error { color: #888; font-size: 14px; }
+
+  .timeline { margin-top: 32px; }
+
+  .row {
+    display: grid;
+    grid-template-columns: 1fr 20px 1fr;
+    cursor: pointer;
+    border-radius: 6px;
   }
-  ol.timeline li {
+  .row:hover { background: #fafafa; }
+  .row:hover .dot { background: #1a1a1a; }
+
+  .date {
+    text-align: right;
+    padding: 2px 16px 24px 0;
+    font-size: 13px;
+    color: #888;
+    white-space: nowrap;
+  }
+
+  .line-col {
     position: relative;
-    padding: 0 0 28px 24px;
+    display: flex;
+    justify-content: center;
   }
-  ol.timeline li::before {
+  .line-col::before {
     content: "";
     position: absolute;
-    left: -7px;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: #e5e5e5;
+  }
+  .row:last-child .line-col::before { bottom: auto; height: 12px; }
+  .dot {
+    position: relative;
     top: 4px;
-    width: 12px;
-    height: 12px;
+    width: 10px;
+    height: 10px;
     border-radius: 50%;
-    background: #333;
+    background: #bbb;
+    border: 2px solid #fff;
   }
-  .date { font-size: 13px; color: #666; }
-  .messages { margin: 4px 0 8px; font-size: 15px; }
-  .messages li { padding: 0; border: none; list-style: disc; margin-left: 18px; }
-  .messages li::before { content: none; }
-  a.view {
+
+  .msg {
+    padding: 0 0 24px 16px;
     font-size: 14px;
-    text-decoration: none;
-    color: #06c;
+    line-height: 1.4;
   }
-  a.view:hover { text-decoration: underline; }
-  .empty, .error { color: #666; }
+  .msg-line { color: #1a1a1a; }
+  .msg-extra { list-style: none; margin: 6px 0 0; padding: 0; color: #555; }
+  .msg-extra li { padding: 2px 0; }
+  .toggle {
+    display: inline-block;
+    margin-top: 6px;
+    font-size: 12px;
+    color: #06c;
+    background: none;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+  }
+  .toggle:hover { text-decoration: underline; }
 </style>
 </head>
 <body>
   <h1>Resume Timeline</h1>
-  <p class="sub">Every pushed version of the resume, newest first.</p>
+  <p class="sub">Every pushed version of the resume, newest first. Click a point to view it.</p>
   <div id="root"><p class="empty">Loading...</p></div>
 
   <script>
@@ -61,20 +94,55 @@
           root.innerHTML = '<p class="empty">No history yet.</p>';
           return;
         }
-        var items = entries.slice().reverse().map(function (entry) {
-          var date = new Date(entry.date).toLocaleString();
-          var messages = (entry.messages || [])
-            .map(function (m) { return '<li>' + escapeHtml(m) + '</li>'; })
-            .join('');
+
+        var rows = entries.slice().reverse().map(function (entry) {
+          var date = new Date(entry.date).toLocaleString(undefined, {
+            year: 'numeric', month: 'short', day: 'numeric',
+            hour: '2-digit', minute: '2-digit'
+          });
+          var messages = entry.messages || [];
+          var first = messages[0] || '(no message)';
+          var rest = messages.slice(1);
+
+          var restHtml = '';
+          if (rest.length) {
+            var restItems = rest.map(function (m) { return '<li>' + escapeHtml(m) + '</li>'; }).join('');
+            restHtml =
+              '<button class="toggle" type="button">+' + rest.length + ' more</button>' +
+              '<ul class="msg-extra" hidden>' + restItems + '</ul>';
+          }
+
           return (
-            '<li>' +
+            '<div class="row" data-id="' + entry.id + '">' +
               '<div class="date">' + date + '</div>' +
-              '<ul class="messages">' + messages + '</ul>' +
-              '<a class="view" href="/api/render?id=' + entry.id + '" target="_blank" rel="noopener">View this version &rarr;</a>' +
-            '</li>'
+              '<div class="line-col"><span class="dot"></span></div>' +
+              '<div class="msg">' +
+                '<div class="msg-line">' + escapeHtml(first) + '</div>' +
+                restHtml +
+              '</div>' +
+            '</div>'
           );
         }).join('');
-        root.innerHTML = '<ol class="timeline">' + items + '</ol>';
+
+        root.innerHTML = '<div class="timeline">' + rows + '</div>';
+
+        root.querySelectorAll('.row').forEach(function (row) {
+          row.addEventListener('click', function () {
+            window.location.href = '/api/render?id=' + row.dataset.id;
+          });
+        });
+
+        root.querySelectorAll('.toggle').forEach(function (btn) {
+          btn.addEventListener('click', function (e) {
+            e.stopPropagation();
+            var extra = btn.nextElementSibling;
+            var expanded = !extra.hidden;
+            extra.hidden = expanded;
+            btn.textContent = expanded
+              ? '+' + extra.children.length + ' more'
+              : 'show less';
+          });
+        });
       })
       .catch(function (err) {
         document.getElementById('root').innerHTML = '<p class="error">Could not load timeline: ' + escapeHtml(err.message) + '</p>';
