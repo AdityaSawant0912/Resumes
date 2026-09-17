@@ -37,6 +37,7 @@
       "position": "Software Development Intern",
       "startDate": "2026-08-31",
       "location": "Buffalo, NY",
+      "url": "https://safetyknights.com",
       "highlights": [
         "Conducting a documentation-and-API audit of five sales/marketing tools (Instantly, Apollo, Metricool, Moosend, SendPilot) to assess unification under a single CRM",
         "Collaborating with cross-functional stakeholders to design 'zero-click' automated workflows across the sales and marketing stack"
@@ -47,6 +48,7 @@
       "position": "Research Assistant (Part-Time)",
       "startDate": "2026-02-20",
       "location": "Buffalo, NY",
+      "url": "https://vphs-grants-search.apps.buffalo.edu/",
       "highlights": [
         "Built a fault-tolerant data ingestion pipeline scraping multiple federal and non-federal grant sources with a 10-worker async Python architecture that self-throttles to avoid overloading target sites.",
         "Designed pluggable source parsers and an LLM based parser behind a common interface with bounded back-pressure queues, keeping the 10-worker pool from overrunning downstream writes.",
@@ -70,6 +72,7 @@
       "startDate": "2026-01-17",
       "endDate": "2026-05-05",
       "location": "Buffalo, NY",
+      "url": "https://safetyknights.com",
       "highlights": [
         "Architected and shipped a production EHS job board currently in beta with 4,000 users, spanning an Express/Node.js API (75+ endpoints, AES-256 encryption), an Angular v17 SSR consumer app, and a standalone admin console, a service-oriented architecture across 3 independently deployable codebases.",
         "Designed the data layer with 4 Mongoose models using compound, geospatial, and full-text indexes, automating hourly listing expiration via node-cron to keep job data fresh without manual intervention.",
@@ -82,6 +85,7 @@
       "startDate": "2024-08-02",
       "endDate": "2025-06-30",
       "location": "Mumbai, India",
+      "url": "https://www.carwale.com/",
       "highlights": [
         "Engineered and maintained the 'Oxygen Design System', a core library of 70+ reusable components in React and React Native powering front-end applications for 80 million monthly users, achieving a 10% bundle-size reduction on critical pages via a new counter-based hashing system.",
         "Led the architectural design of a dark theme for 60+ React Native components, using React Context and custom hooks to achieve seamless, no-reload theme switching.",

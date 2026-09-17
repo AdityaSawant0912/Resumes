@@ -12,6 +12,7 @@ const Work = ({
   }, work.map((w, key) => {
     return /*#__PURE__*/React.createElement(Experience, {
       title: w.position,
+      url: w.url,
       subTitle: w.name,
       startDate: w.startDate,
       endDate: w.endDate,
