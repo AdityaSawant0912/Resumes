@@ -17,5 +17,14 @@
       "resume: generalize grant-source bullet, consolidate parser description"
     ],
     "file": "timeline-data/versions/aea4879b.json"
+  },
+  {
+    "id": "2ae04751",
+    "prevId": "aea4879b",
+    "date": "2026-09-17T17:00:50.620Z",
+    "messages": [
+      "resume: added url's for experiences"
+    ],
+    "file": "timeline-data/versions/2ae04751.json"
   }
 ]
