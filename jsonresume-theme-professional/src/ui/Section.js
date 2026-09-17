@@ -3,7 +3,7 @@ import { styled } from 'styled-components';
 
 const Section = styled.div`
   max-width: 700px;
-  margin: 0 auto 18px;
+  margin: 0 auto 13px;
 
   h2 {
     margin: 0;
