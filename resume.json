@@ -11,7 +11,6 @@
     "phone": "",
     "url": "",
     "image": "https://adityasawant.dev/_next/image?url=%2Fheadshot.jpg&w=640&q=90",
-    "summary": "Software engineer who has shipped fault-tolerant data pipelines, cloud infrastructure, and front-end systems at scale, from a 10-worker grant-ingestion pipeline to a design system serving 80M+ monthly users.",
     "location": {
       "address": "35 Englewood Ave",
       "postalCode": "14214",
@@ -34,6 +33,16 @@
   },
   "work": [
     {
+      "name": "Safety Knights",
+      "position": "Software Development Intern",
+      "startDate": "2026-08-31",
+      "location": "Buffalo, NY",
+      "highlights": [
+        "Conducting a documentation-and-API audit of five sales/marketing tools (Instantly, Apollo, Metricool, Moosend, SendPilot) to assess unification under a single CRM",
+        "Collaborating with cross-functional stakeholders to design 'zero-click' automated workflows across the sales and marketing stack"
+      ]
+    },
+    {
       "name": "SUNY Research Foundation, CUBS Lab (Prof. Srirangaraj Setlur)",
       "position": "Research Assistant (Part-Time)",
       "startDate": "2026-02-20",
@@ -54,7 +63,7 @@
       "location": "Irvine, CA",
       "highlights": [
         "Kept 500+ records synced daily with zero manual intervention by integrating 6 social platforms (Instagram, YouTube, TikTok, LinkedIn, Snapchat, X) via OAuth with automatic token refresh and credential rotation.",
-        "Building production infrastructure serving 150+ creators: architecting isolated dev/prod cloud environments on Neon with automated S3 backups and branch protection, eliminating risk of dev changes affecting live users"
+        "Built production infrastructure serving 150+ creators: architected isolated dev/prod cloud environments on Neon with automated S3 backups and branch protection, eliminating risk of dev changes affecting live users."
       ]
     },
     {
