@@ -26,5 +26,14 @@
       "resume: added url's for experiences"
     ],
     "file": "timeline-data/versions/2ae04751.json"
+  },
+  {
+    "id": "69c74637",
+    "prevId": "2ae04751",
+    "date": "2026-10-26T19:01:22.788Z",
+    "messages": [
+      "refactor: update resume.json with new project details and remove outdated internship entry"
+    ],
+    "file": "timeline-data/versions/69c74637.json"
   }
 ]
