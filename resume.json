@@ -39,8 +39,10 @@
       "location": "Buffalo, NY",
       "url": "https://safetyknights.com",
       "highlights": [
-        "Conducting a documentation-and-API audit of five sales/marketing tools (Instantly, Apollo, Metricool, Moosend, SendPilot) to assess unification under a single CRM",
-        "Collaborating with cross-functional stakeholders to design 'zero-click' automated workflows across the sales and marketing stack"
+        "Consolidated 5 sales and marketing tools (Instantly, Apollo, Metricool, Moosend, SendPilot) into one Next.js/TypeScript/Postgres CRM, replacing 5 separate logins and manual exports for a 3-person team",
+        "Built a multi-source automation engine (webhooks, polling connectors with historical backfill, chained-step rules exposing 28 Instantly actions) with a visual rules editor, so non-engineers can build automations. Zero-click lead dedupe and sync across Apollo and Instantly cut ~12 hrs/week of CSV export and re-entry",
+        "Shipped a GitHub Actions CI/CD pipeline that runs lint, type-checks and 1,000+ automated tests on every push, builds a Docker image tagged by commit SHA, and auto-deploys dev in about 5 minutes end to end, with prod promoted from the same tested image",
+        "Moved hosting from Vercel and hosted Supabase to a self-hosted DigitalOcean droplet (Docker Compose, nginx, self-hosted Supabase) for full data control and fixed, predictable billing instead of usage-based pricing; added automated Drizzle migrations on every deploy and a BullMQ/Redis worker for background jobs"
       ]
     },
     {
@@ -53,17 +55,6 @@
         "Built a fault-tolerant data ingestion pipeline scraping multiple federal and non-federal grant sources with a 10-worker async Python architecture that self-throttles to avoid overloading target sites.",
         "Designed pluggable source parsers and an LLM based parser behind a common interface with bounded back-pressure queues, keeping the 10-worker pool from overrunning downstream writes.",
         "Eliminated a cluster-internal auth-bypass by re-architecting Apache/Shibboleth SSO and Flask into a single-pod OpenShift sidecar (loopback-bound app, exec health probes, Secret-backed creds), making the API kernel-level unreachable except through SAML SSO."
-      ]
-    },
-    {
-      "name": "Channel Core",
-      "position": "Software Development Intern",
-      "startDate": "2026-05-15",
-      "endDate": "2026-06-30",
-      "location": "Irvine, CA",
-      "highlights": [
-        "Kept 500+ records synced daily with zero manual intervention by integrating 6 social platforms (Instagram, YouTube, TikTok, LinkedIn, Snapchat, X) via OAuth with automatic token refresh and credential rotation.",
-        "Built production infrastructure serving 150+ creators: architected isolated dev/prod cloud environments on Neon with automated S3 backups and branch protection, eliminating risk of dev changes affecting live users."
       ]
     },
     {
@@ -115,6 +106,25 @@
   ],
   "projects": [
     {
+      "name": "Vantage",
+      "description": "Self-hosted TypeScript web analytics library with pluggable queue/store adapters and a client tracker (github.com/AdityaSawant0912/vantage)",
+      "url": "https://vantage.adityasawant.dev",
+      "highlights": [
+        "Architected a zero-infra-dependency TypeScript analytics core with pluggable QueueAdapter/StoreAdapter contracts, shipping Redis, BullMQ, and Postgres adapters that share one test suite; at-least-once delivery is effectively exactly-once by keying writes per tenant (source_id, event_id), and auth keys resolve once at ingest to isolate tenants",
+        "Built a browser tracker with batched sendBeacon delivery, localStorage-backed offline retry, session and page-view chaining (prev_pv_id/seq), and IntersectionObserver impressions counting only active, focused, non-idle visible time"
+      ],
+      "keywords": [
+        "Systems Design",
+        "TypeScript",
+        "NodeJS",
+        "Redis",
+        "Postgresql",
+        "BullMQ"
+      ],
+      "startDate": "2026-08-28",
+      "roles": []
+    },
+    {
       "name": "Optimus",
       "description": "Zero-dependency TypeScript feature flag engine with React, Angular & SSR adapters (github.com/AdityaSawant0912/optimus)",
       "url": "https://optimus.adityasawant.dev",
@@ -130,22 +140,6 @@
         "NodeJS"
       ],
       "startDate": "2026-08-28",
-      "roles": []
-    },
-    {
-      "name": "bro-cli",
-      "description": "Cross-shell CLI alias manager preserving shell state (cd, env activation) across invocations (github.com/AdityaSawant0912/bro-cli)",
-      "url": "https://bro.adityasawant.dev",
-      "highlights": [
-        "Built single-binary Rust CLI (bash/zsh/fish/PowerShell/cmd) that emits shell code for the wrapper to eval, letting stored aliases mutate the live shell: cd, export, venv activation persist across runs."
-      ],
-      "keywords": [
-        "Rust",
-        "CLI",
-        "Shell Scripting"
-      ],
-      "startDate": "2026-06-19",
-      "endDate": "2026-07-07",
       "roles": []
     }
   ],
@@ -188,6 +182,7 @@
       "keywords": [
         "Git",
         "GitHub Actions",
+        "DigitalOcean",
         "AWS",
         "Docker",
         "GCP",
