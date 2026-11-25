@@ -39,10 +39,11 @@
       "location": "Buffalo, NY",
       "url": "https://safetyknights.com",
       "highlights": [
-        "Consolidated 5 sales and marketing tools (Instantly, Apollo, Metricool, Moosend, SendPilot) into one Next.js/TypeScript/Postgres CRM, replacing 5 separate logins and manual exports for a 3-person team",
-        "Built a multi-source automation engine (webhooks, polling connectors with historical backfill, chained-step rules exposing 28 Instantly actions) with a visual rules editor, so non-engineers can build automations. Zero-click lead dedupe and sync across Apollo and Instantly cut ~12 hrs/week of CSV export and re-entry",
-        "Shipped a GitHub Actions CI/CD pipeline that runs lint, type-checks and 1,000+ automated tests on every push, builds a Docker image tagged by commit SHA, and auto-deploys dev in about 5 minutes end to end, with prod promoted from the same tested image",
-        "Moved hosting from Vercel and hosted Supabase to a self-hosted DigitalOcean droplet (Docker Compose, nginx, self-hosted Supabase) for full data control and fixed, predictable billing instead of usage-based pricing; added automated Drizzle migrations on every deploy and a BullMQ/Redis worker for background jobs"
+        "Built an internal CRM using TypeScript, JavaScript, React (Next.js), HTML/CSS and PostgreSQL that replaced 5 separate sales and marketing tools, giving a 3-person team one login instead of five.",
+        "Developed a no-code automation engine with REST APIs and webhooks that lets non-engineers build their own sales workflows, cutting ~12 hrs/week of manual CSV exports and data re-entry.",
+        "Integrated the Instantly and Apollo REST APIs to automatically find and merge duplicate leads and keep both tools in sync, so sales reps never contact the same person twice.",
+        "Set up CI/CD with GitHub Actions and Docker that runs 1,000+ automated tests and deploys in about 5 minutes, and moved hosting to DigitalOcean for predictable, fixed monthly costs.",
+        "Used Claude Code with agentic workflows (parallel sub-agents, custom skills and MCP tooling) to plan, build and test features faster, shipping the CRM, automation engine and CI/CD pipeline as a solo developer."
       ]
     },
     {
@@ -52,9 +53,10 @@
       "location": "Buffalo, NY",
       "url": "https://vphs-grants-search.apps.buffalo.edu/",
       "highlights": [
-        "Built a fault-tolerant data ingestion pipeline scraping multiple federal and non-federal grant sources with a 10-worker async Python architecture that self-throttles to avoid overloading target sites.",
-        "Designed pluggable source parsers and an LLM based parser behind a common interface with bounded back-pressure queues, keeping the 10-worker pool from overrunning downstream writes.",
-        "Eliminated a cluster-internal auth-bypass by re-architecting Apache/Shibboleth SSO and Flask into a single-pod OpenShift sidecar (loopback-bound app, exec health probes, Secret-backed creds), making the API kernel-level unreachable except through SAML SSO."
+        "Built an automated data pipeline in Python and SQL, deployed on OpenShift (Kubernetes), that collects grant listings from multiple federal and non-federal sources so researchers do not have to search each site by hand.",
+        "Added an AI (LLM) parser alongside site-specific parsers so new grant sources can be added quickly, with a self-throttling 10-worker design that avoids overloading source websites.",
+        "Closed a security gap in a Python (Flask) API by moving it behind university single sign-on (SAML), so only authenticated users can reach grant data.",
+        "Made the Python pipeline fault-tolerant, with bounded work queues so a slow or failing source site does not stall the other nine workers or lose collected data."
       ]
     },
     {
@@ -65,9 +67,10 @@
       "location": "Buffalo, NY",
       "url": "https://safetyknights.com",
       "highlights": [
-        "Architected and shipped a production EHS job board currently in beta with 4,000 users, spanning an Express/Node.js API (75+ endpoints, AES-256 encryption), an Angular v17 SSR consumer app, and a standalone admin console, a service-oriented architecture across 3 independently deployable codebases.",
-        "Designed the data layer with 4 Mongoose models using compound, geospatial, and full-text indexes, automating hourly listing expiration via node-cron to keep job data fresh without manual intervention.",
-        "Built a full candidate pipeline with GridFS document storage, 5-stage status tracking, 3 automated email flows, and multi-axis job search."
+        "Built an EHS job board with JavaScript, TypeScript, Node.js, Angular and MongoDB (NoSQL) behind 75+ REST API endpoints, now serving 4,000+  users.",
+        "Split the platform into 3 independently deployable apps (Node.js API, Angular consumer site with server-side rendering, admin console) and encrypted stored data with AES-256, so each part can ship and scale on its own.",
+        "Designed a database with location-based search and automatic hourly job expiry so candidates only see open jobs near them.",
+        "Built the candidate application flow (document upload, 5-stage status tracking, 3 automated emails) so employers can review applicants in one place."
       ]
     },
     {
@@ -78,9 +81,9 @@
       "location": "Mumbai, India",
       "url": "https://www.carwale.com/",
       "highlights": [
-        "Engineered and maintained the 'Oxygen Design System', a core library of 70+ reusable components in React and React Native powering front-end applications for 80 million monthly users, achieving a 10% bundle-size reduction on critical pages via a new counter-based hashing system.",
-        "Led the architectural design of a dark theme for 60+ React Native components, using React Context and custom hooks to achieve seamless, no-reload theme switching.",
-        "Cut a two-week estimate to 2 days by leveraging AI-driven automation and prompt engineering to update 250+ files."
+        "Maintained a shared library of 70+ React and React Native UI components in TypeScript and JavaScript, used across a site with 80M monthly users, cutting bundle size 10% on key pages.",
+        "Led a dark theme for 60+ React Native components using React Context, letting users switch themes instantly without reloading.",
+        "Used AI coding tools to cut a two-week migration across 250+ files to 2 days."
       ]
     }
   ],
@@ -110,8 +113,8 @@
       "description": "Self-hosted TypeScript web analytics library with pluggable queue/store adapters and a client tracker (github.com/AdityaSawant0912/vantage)",
       "url": "https://vantage.adityasawant.dev",
       "highlights": [
-        "Architected a zero-infra-dependency TypeScript analytics core with pluggable QueueAdapter/StoreAdapter contracts, shipping Redis, BullMQ, and Postgres adapters that share one test suite; at-least-once delivery is effectively exactly-once by keying writes per tenant (source_id, event_id), and auth keys resolve once at ingest to isolate tenants",
-        "Built a browser tracker with batched sendBeacon delivery, localStorage-backed offline retry, session and page-view chaining (prev_pv_id/seq), and IntersectionObserver impressions counting only active, focused, non-idle visible time"
+        "Built an open-source TypeScript web analytics library that works with Redis or PostgreSQL, so teams can track site traffic on their own servers without paying for a third-party tool.",
+        "Built a browser tracker that sends data reliably, even offline, and counts only the time visitors actively view a page, so engagement numbers are accurate."
       ],
       "keywords": [
         "Systems Design",
@@ -129,8 +132,8 @@
       "description": "Zero-dependency TypeScript feature flag engine with React, Angular & SSR adapters (github.com/AdityaSawant0912/optimus)",
       "url": "https://optimus.adityasawant.dev",
       "highlights": [
-        "Designed a unified evaluation engine collapsing boolean, variant, and config flags into one core path, with deterministic id:flag:seed bucketing for consistent assignment across servers",
-        "Built SSR support via single-evaluation snapshot hydration and published as @useoptimus/core (npm), with zero-dep architecture supporting Worker, Node, and browser runtimes"
+        "Built and published an open-source TypeScript feature-flag library on npm, with React and Angular support, so teams can turn features on or off for users without redeploying.",
+        "Added server-side rendering support so pages load with the right features already switched on, and each user sees the same version on every server."
       ],
       "keywords": [
         "Systems Design",

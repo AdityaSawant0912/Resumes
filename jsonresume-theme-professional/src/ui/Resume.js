@@ -34,6 +34,7 @@ const Resume = ({ resume }) => {
     <Layout>
       <Hero basics={resume.basics} />
       <Summary basics={resume.basics} />
+      <Education education={resume.education} />
       <Work work={resume.work} />
       <Projects projects={resume.projects} />
       <Certificates certificates={resume.certificates} />
@@ -42,7 +43,6 @@ const Resume = ({ resume }) => {
       <Languages languages={resume.languages} />
       <Skills skills={resume.skills} />
       <Interests interests={resume.interests} />
-      <Education education={resume.education} />
       <References references={resume.references} />
     </Layout>
   );

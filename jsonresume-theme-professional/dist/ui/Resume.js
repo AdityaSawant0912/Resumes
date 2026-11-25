@@ -34,6 +34,8 @@ const Resume = ({
     basics: resume.basics
   }), /*#__PURE__*/React.createElement(Summary, {
     basics: resume.basics
+  }), /*#__PURE__*/React.createElement(Education, {
+    education: resume.education
   }), /*#__PURE__*/React.createElement(Work, {
     work: resume.work
   }), /*#__PURE__*/React.createElement(Projects, {
@@ -50,8 +52,6 @@ const Resume = ({
     skills: resume.skills
   }), /*#__PURE__*/React.createElement(Interests, {
     interests: resume.interests
-  }), /*#__PURE__*/React.createElement(Education, {
-    education: resume.education
   }), /*#__PURE__*/React.createElement(References, {
     references: resume.references
   }));
