@@ -1,0 +1,197 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "meta": {
+    "theme": "professional",
+    "lastModified": "2026-02-19T00:00:00"
+  },
+  "basics": {
+    "name": "Aditya Rajesh Sawant",
+    "label": "Software Development Engineer",
+    "email": "arsawant09@gmail.com",
+    "phone": "",
+    "url": "",
+    "image": "https://adityasawant.dev/_next/image?url=%2Fheadshot.jpg&w=640&q=90",
+    "location": {
+      "address": "35 Englewood Ave",
+      "postalCode": "14214",
+      "city": "Buffalo",
+      "countryCode": "US",
+      "region": "New York"
+    },
+    "profiles": [
+      {
+        "network": "linkedin",
+        "username": "adityasawant09",
+        "url": "https://www.linkedin.com/in/adityasawant09/"
+      },
+      {
+        "network": "github",
+        "username": "AdityaSawant0912",
+        "url": "https://github.com/AdityaSawant0912"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Safety Knights",
+      "position": "Software Development Intern",
+      "startDate": "2026-08-31",
+      "location": "Buffalo, NY",
+      "url": "https://safetyknights.com",
+      "highlights": [
+        "Built an internal CRM using TypeScript, JavaScript, React (Next.js), HTML/CSS and PostgreSQL that replaced 5 separate sales and marketing tools, giving a 3-person team one login instead of five.",
+        "Developed a no-code automation engine with REST APIs and webhooks that lets non-engineers build their own sales workflows, cutting ~12 hrs/week of manual CSV exports and data re-entry.",
+        "Integrated the Instantly and Apollo REST APIs to automatically find and merge duplicate leads and keep both tools in sync, so sales reps never contact the same person twice.",
+        "Set up CI/CD with GitHub Actions and Docker that runs 1,000+ automated tests and deploys in about 5 minutes, and moved hosting to DigitalOcean for predictable, fixed monthly costs.",
+        "Used Claude Code with agentic workflows (parallel sub-agents, custom skills and MCP tooling) to plan, build and test features faster, shipping the CRM, automation engine and CI/CD pipeline as a solo developer."
+      ]
+    },
+    {
+      "name": "SUNY Research Foundation, CUBS Lab (Prof. Srirangaraj Setlur)",
+      "position": "Research Assistant (Part-Time)",
+      "startDate": "2026-02-20",
+      "location": "Buffalo, NY",
+      "url": "https://vphs-grants-search.apps.buffalo.edu/",
+      "highlights": [
+        "Built an automated data pipeline in Python and SQL, deployed on OpenShift (Kubernetes), that collects grant listings from multiple federal and non-federal sources so researchers do not have to search each site by hand.",
+        "Added an AI (LLM) parser alongside site-specific parsers so new grant sources can be added quickly, with a self-throttling 10-worker design that avoids overloading source websites.",
+        "Closed a security gap in a Python (Flask) API by moving it behind university single sign-on (SAML), so only authenticated users can reach grant data.",
+        "Made the Python pipeline fault-tolerant, with bounded work queues so a slow or failing source site does not stall the other nine workers or lose collected data."
+      ]
+    },
+    {
+      "name": "Safety Knights",
+      "position": "Software Development Intern",
+      "startDate": "2026-01-17",
+      "endDate": "2026-05-05",
+      "location": "Buffalo, NY",
+      "url": "https://safetyknights.com",
+      "highlights": [
+        "Built an EHS job board with JavaScript, TypeScript, Node.js, Angular and MongoDB (NoSQL) behind 75+ REST API endpoints, now serving 4,000+  users.",
+        "Split the platform into 3 independently deployable apps (Node.js API, Angular consumer site with server-side rendering, admin console) and encrypted stored data with AES-256, so each part can ship and scale on its own.",
+        "Designed a database with location-based search and automatic hourly job expiry so candidates only see open jobs near them.",
+        "Built the candidate application flow (document upload, 5-stage status tracking, 3 automated emails) so employers can review applicants in one place."
+      ]
+    },
+    {
+      "name": "CarWale [CarTrade Tech]",
+      "position": "Software Development Engineer",
+      "startDate": "2024-08-02",
+      "endDate": "2025-06-30",
+      "location": "Mumbai, India",
+      "url": "https://www.carwale.com/",
+      "highlights": [
+        "Maintained a shared library of 70+ React and React Native UI components in TypeScript and JavaScript, used across a site with 80M monthly users, cutting bundle size 10% on key pages.",
+        "Led a dark theme for 60+ React Native components using React Context, letting users switch themes instantly without reloading.",
+        "Used AI coding tools to cut a two-week migration across 250+ files to 2 days."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "University at Buffalo",
+      "url": "https://www.buffalo.edu/",
+      "area": "Computer Science",
+      "studyType": "Master of Science",
+      "startDate": "2025-08-25",
+      "endDate": "2026-12-31",
+      "score": "GPA: 3.83/4"
+    },
+    {
+      "institution": "University of Mumbai",
+      "url": "https://www.sakec.ac.in/",
+      "area": "",
+      "studyType": "Computer Engineering",
+      "startDate": "2020-08-02",
+      "endDate": "2024-06-30",
+      "score": "CGPA: 8.63/10 (~3.45/4.0 equivalent)"
+    }
+  ],
+  "projects": [
+    {
+      "name": "Vantage",
+      "description": "Self-hosted TypeScript web analytics library with pluggable queue/store adapters and a client tracker (github.com/AdityaSawant0912/vantage)",
+      "url": "https://vantage.adityasawant.dev",
+      "highlights": [
+        "Built an open-source TypeScript web analytics library that works with Redis or PostgreSQL, so teams can track site traffic on their own servers without paying for a third-party tool.",
+        "Built a browser tracker that sends data reliably, even offline, and counts only the time visitors actively view a page, so engagement numbers are accurate."
+      ],
+      "keywords": [
+        "Systems Design",
+        "TypeScript",
+        "NodeJS",
+        "Redis",
+        "Postgresql",
+        "BullMQ"
+      ],
+      "startDate": "2026-08-28",
+      "roles": []
+    },
+    {
+      "name": "Optimus",
+      "description": "Zero-dependency TypeScript feature flag engine with React, Angular & SSR adapters (github.com/AdityaSawant0912/optimus)",
+      "url": "https://optimus.adityasawant.dev",
+      "highlights": [
+        "Built and published an open-source TypeScript feature-flag library on npm, with React and Angular support, so teams can turn features on or off for users without redeploying.",
+        "Added server-side rendering support so pages load with the right features already switched on, and each user sees the same version on every server."
+      ],
+      "keywords": [
+        "Systems Design",
+        "TypeScript",
+        "ReactJS",
+        "AngularJS",
+        "NodeJS"
+      ],
+      "startDate": "2026-08-28",
+      "roles": []
+    }
+  ],
+  "skills": [
+    {
+      "name": "Programming Languages",
+      "level": "",
+      "keywords": [
+        "JavaScript",
+        "TypeScript",
+        "Python",
+        "Rust",
+        "Java",
+        "C#"
+      ]
+    },
+    {
+      "name": "Frameworks",
+      "level": "",
+      "keywords": [
+        "React",
+        "Node.js",
+        "Next.js",
+        "Angular",
+        "Redux"
+      ]
+    },
+    {
+      "name": "Databases",
+      "level": "",
+      "keywords": [
+        "PostgreSQL",
+        "MongoDB",
+        "MySQL"
+      ]
+    },
+    {
+      "name": "Cloud & Infrastructure",
+      "level": "",
+      "keywords": [
+        "Git",
+        "GitHub Actions",
+        "DigitalOcean",
+        "AWS",
+        "Docker",
+        "GCP",
+        "OpenShift",
+        "Elasticsearch"
+      ]
+    }
+  ]
+}

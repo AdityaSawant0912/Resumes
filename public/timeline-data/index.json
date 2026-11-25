@@ -35,5 +35,14 @@
       "refactor: update resume.json with new project details and remove outdated internship entry"
     ],
     "file": "timeline-data/versions/69c74637.json"
+  },
+  {
+    "id": "6821c9d5",
+    "prevId": "69c74637",
+    "date": "2026-11-25T20:08:49.656Z",
+    "messages": [
+      "resume: rework bullets for Bob test, move education to top, add Claude Code and architecture bullets"
+    ],
+    "file": "timeline-data/versions/6821c9d5.json"
   }
 ]
